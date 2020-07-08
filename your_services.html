@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <title>Cellula | Home Shoping</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jqueryui.min.css">
+</head>
+<body class="animated">
+    <section id="home">
+        <nav class="navbar navbar-expand-lg navbar-light header-section shadow-new">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home-shoping.html"><img src="images/logo_small.svg" alt="logo"></a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mobile_nav" aria-controls="mobile_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> 
+                </button>
+                <div class="m24_navigation_wrapper d-flex justify-content-center">
+                    <div class="navi_searchbar_wrapper">
+                        <div class="comboTreeWrapper">
+                            <div class="comboTreeInputWrapper">
+                                <input type="text"  placeholder="Search" class="comboTreeInputBox">
+                                <span class="search"><img src="images/search.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse" id="mobile_nav" style="">
+                    <div class=" mr-auto"> </div>
+                    <ul class="navbar-nav navbar-light ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img  src="images/home.svg" border="0" alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                                <img  src="images/notification.svg" alt="">
+                            </a> 
+                            <span class="num">4</span>
+                        </li>
+                        <li class="nav-item dmenu dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/profile.svg" alt="img">
+                                <span class="name">Mitul</span></a>
+                                <div class="dropdown-menu sm-menu mainmenu" aria-labelledby="navbarDropdown">
+                                   <a class="dropdown-item" href="order.html">Your Orders</a>
+                                   <a class="dropdown-item" href="wishlist.html">Your Wish List</a>
+                                   <a class="dropdown-item" href="address.html">Your Addresses </a>
+                                   <a class="dropdown-item" href="#">Invite on Cellula  </a>
+                                   <a class="dropdown-item" href="#">Customer Support  </a>
+                                   <a class="dropdown-item" href="#">Cancellations and Returns</a>
+                                   <a class="dropdown-item" href="#">Shipping</a>
+                                   <a class="dropdown-item" href="#">Payments</a>
+                                   <a class="dropdown-item" href="#">Settings</a>
+                                   <a class="dropdown-item" href="#">Logout</a>
+                               </div>
+                         </li>
+                         <span class="line">|</span>
+                         <li class="nav-item dmenu dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/menu.svg" alt="img" class="img-fluid"><span class="caret"></span></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                                    <img  src="images/cart.svg" alt="">
+                                </a> 
+                                <span class="cart">4</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section class="cart_detail">
+        <div class="container-fluid mb-4">
+            <div class="upper-link">
+                <ul>
+                    <li>
+                        <a href="#"><span class="green-text">Home</span>
+                        <i class="fa fa-angle-right green-text" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="green-text">Food</span>
+                        <i class="fa fa-angle-right green-text" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <span>My Orderes</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+<div class="cellula-shopping">
+      <div class="container">
+          <div class="cellula-header">
+                <nav class="navbar navbar-expand-sm">
+                    <ul class="tabs navbar-nav">
+                        <li class="tab-link nav-item" data-tab="tab-1">All</li>
+                        <li class="tab-link nav-item" data-tab="tab-2">Events</li>
+                        <li class="tab-link nav-item" data-tab="tab-3">Shopping</li>
+                        <li class="tab-link nav-item" data-tab="tab-4">Food</li>
+                        <li class="tab-link nav-item current" data-tab="tab-5">Pharmacy</li>
+                      </ul>
+                </nav>
+           </div>
+           <div id="tab-1" class="tab-content current">
+            <div class="row border mb-3">
+                <div class="col-md-12">
+                    <div class="row border-1">
+                        <div class="col-md-9">
+                            <div class="row pl">
+                                    <div class="col-md-3">
+                                        <div>
+                                        <p class="cellula-shopping-order">ORDER NO</p>
+                                        <p>Fri Jul 26,2017</p>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">TOTAL</p>
+                                        <p >Rs.2,069</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">SELLER</p>
+                                        <p>Amiz Coach</p>  
+                                    </div>
+                            </div>
+                            </div>
+                        <div class="col-md-3 order-system">
+                            <p>ORDER # 406-29232819</p>
+                            </div>
+
+                    </div>
+                    <div class="row cellula-workout">
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="./images/order/gim.svg" class="img-blog">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <div class="cellula-day">
+                                        <h4>5 day Workout guidance</h4>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Morning</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Noon</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Evening</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Night</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="order-system-delivery workout-check d-flex align-items-center">
+                                <img src="./images/order/time.svg">
+                                <p class="ml-2">2 Days Delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cellula-running">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn-running ">Running</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="tab-1" class="tab-content">
+            <div class="row border mb-3">
+                <div class="col-md-12">
+                    <div class="row border-1">
+                        <div class="col-md-9">
+                            <div class="row pl">
+                                    <div class="col-md-3">
+                                        <div>
+                                        <p class="cellula-shopping-order">ORDER NO</p>
+                                        <p>Fri Jul 26,2017</p>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">TOTAL</p>
+                                        <p >Rs.2,069</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">SELLER</p>
+                                        <p>Amiz Coach</p>  
+                                    </div>
+                            </div>
+                            </div>
+                        <div class="col-md-3 order-system">
+                            <p>ORDER # 406-29232819</p>
+                            </div>
+
+                    </div>
+                    <div class="row cellula-workout">
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="./images/order/gim.svg" class="img-blog">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <div class="cellula-day">
+                                        <h4>5 day Workout guidance</h4>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Morning</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Noon</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Evening</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Night</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="order-system-delivery workout-check d-flex align-items-center">
+                                <img src="./images/order/time.svg">
+                                <p class="ml-2">2 Days Delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cellula-running">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn-running ">Running</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab-2" class="tab-content">
+            <div class="row border mb-3">
+                <div class="col-md-12">
+                    <div class="row border-1">
+                        <div class="col-md-9">
+                            <div class="row pl">
+                                    <div class="col-md-3">
+                                        <div>
+                                        <p class="cellula-shopping-order">ORDER NO</p>
+                                        <p>Fri Jul 26,2017</p>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">TOTAL</p>
+                                        <p >Rs.2,069</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">SELLER</p>
+                                        <p>Amiz Coach</p>  
+                                    </div>
+                            </div>
+                            </div>
+                        <div class="col-md-3 order-system">
+                            <p>ORDER # 406-29232819</p>
+                            </div>
+
+                    </div>
+                    <div class="row cellula-workout">
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="./images/order/gim.svg" class="img-blog">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <div class="cellula-day">
+                                        <h4>5 day Workout guidance</h4>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Morning</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Noon</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Evening</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Night</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="order-system-delivery workout-check d-flex align-items-center">
+                                <img src="./images/order/time.svg">
+                                <p class="ml-2">2 Days Delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cellula-running">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn-running ">Running</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab-3" class="tab-content">
+            <div class="row border mb-3">
+                <div class="col-md-12">
+                    <div class="row border-1">
+                        <div class="col-md-9">
+                            <div class="row pl">
+                                    <div class="col-md-3">
+                                        <div>
+                                        <p class="cellula-shopping-order">ORDER NO</p>
+                                        <p>Fri Jul 26,2017</p>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">TOTAL</p>
+                                        <p >Rs.2,069</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">SELLER</p>
+                                        <p>Amiz Coach</p>  
+                                    </div>
+                            </div>
+                            </div>
+                        <div class="col-md-3 order-system">
+                            <p>ORDER # 406-29232819</p>
+                            </div>
+
+                    </div>
+                    <div class="row cellula-workout">
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="./images/order/gim.svg" class="img-blog">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <div class="cellula-day">
+                                        <h4>5 day Workout guidance</h4>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Morning</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Noon</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Evening</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Night</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="order-system-delivery workout-check d-flex align-items-center">
+                                <img src="./images/order/time.svg">
+                                <p class="ml-2">2 Days Delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cellula-running">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn-running ">Running</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab-4" class="tab-content">
+            <div class="row border mb-3">
+                <div class="col-md-12">
+                    <div class="row border-1">
+                        <div class="col-md-9">
+                            <div class="row pl">
+                                    <div class="col-md-3">
+                                        <div>
+                                        <p class="cellula-shopping-order">ORDER NO</p>
+                                        <p>Fri Jul 26,2017</p>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">TOTAL</p>
+                                        <p >Rs.2,069</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">SELLER</p>
+                                        <p>Amiz Coach</p>  
+                                    </div>
+                            </div>
+                            </div>
+                        <div class="col-md-3 order-system">
+                            <p>ORDER # 406-29232819</p>
+                            </div>
+
+                    </div>
+                    <div class="row cellula-workout">
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="./images/order/gim.svg" class="img-blog">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <div class="cellula-day">
+                                        <h4>5 day Workout guidance</h4>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Morning</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Noon</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Evening</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Night</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="order-system-delivery workout-check d-flex align-items-center">
+                                <img src="./images/order/time.svg">
+                                <p class="ml-2">2 Days Delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cellula-running">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn-running ">Running</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab-5" class="tab-content current">
+            <div class="row border mb-3">
+                <div class="col-md-12">
+                    <div class="row border-1">
+                        <div class="col-md-9">
+                            <div class="row pl">
+                                    <div class="col-md-3">
+                                        <div>
+                                        <p class="cellula-shopping-order">ORDER NO</p>
+                                        <p>Fri Jul 26,2017</p>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">TOTAL</p>
+                                        <p >Rs.2,069</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">SELLER</p>
+                                        <p>Amiz Coach</p>  
+                                    </div>
+                            </div>
+                            </div>
+                        <div class="col-md-3 order-system">
+                            <p>ORDER # 406-29232819</p>
+                            </div>
+
+                    </div>
+                    <div class="row cellula-workout">
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="./images/order/gim.svg" class="img-blog">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <div class="cellula-day">
+                                        <h4>5 day Workout guidance</h4>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Morning</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Noon</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Evening</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Night</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="order-system-delivery workout-check d-flex align-items-center">
+                                <img src="./images/order/time.svg">
+                                <p class="ml-2">2 Days Delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cellula-running">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn-running ">Running</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row border mb-3">
+                <div class="col-md-12">
+                    <div class="row border-1">
+                        <div class="col-md-9">
+                            <div class="row pl">
+                                    <div class="col-md-3">
+                                        <div>
+                                        <p class="cellula-shopping-order">ORDER NO</p>
+                                        <p>Fri Jul 26,2017</p>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">TOTAL</p>
+                                        <p >Rs.2,069</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">SELLER</p>
+                                        <p>Amiz Coach</p>  
+                                    </div>
+                            </div>
+                            </div>
+                        <div class="col-md-3 order-system">
+                            <p>ORDER # 406-29232819</p>
+                            </div>
+
+                    </div>
+                    <div class="row cellula-workout">
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="./images/order/gim.svg" class="img-blog">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <div class="cellula-day">
+                                        <h4>5 day Workout guidance</h4>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Morning</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Noon</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Evening</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Night</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="order-system-delivery workout-check d-flex align-items-center">
+                                <img src="./images/order/time.svg">
+                                <p class="ml-2">2 Days Delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cellula-running">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn-running ">Running</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row border mb-3">
+                <div class="col-md-12">
+                    <div class="row border-1">
+                        <div class="col-md-9">
+                            <div class="row pl">
+                                    <div class="col-md-3">
+                                        <div>
+                                        <p class="cellula-shopping-order">ORDER NO</p>
+                                        <p>Fri Jul 26,2017</p>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">TOTAL</p>
+                                        <p >Rs.2,069</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="cellula-shopping-order">SELLER</p>
+                                        <p>Amiz Coach</p>  
+                                    </div>
+                            </div>
+                            </div>
+                        <div class="col-md-3 order-system">
+                            <p>ORDER # 406-29232819</p>
+                            </div>
+
+                    </div>
+                    <div class="row cellula-workout">
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="./images/order/gim.svg" class="img-blog">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <div class="cellula-day">
+                                        <h4>5 day Workout guidance</h4>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Morning</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Noon</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Evening</p>
+                                    </div>
+                                    <div class="d-flex workout-check">
+                                        <img src="./images/order/check.svg">
+                                        <p class="ml-3">Night</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="order-system-delivery workout-check d-flex align-items-center">
+                                <img src="./images/order/time.svg">
+                                <p class="ml-2">2 Days Delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cellula-running">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn-running ">Running</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         
+      </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
+        
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+        
+	})
+
+})
+</script>
+</body>
+</html>

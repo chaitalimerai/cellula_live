@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <title>Cellula | Home Shoping</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jqueryui.min.css">
+</head>
+<body class="animated">
+    <section id="home">
+        <nav class="navbar navbar-expand-lg navbar-light header-section shadow-new">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home-shoping.html"><img src="images/logo_small.svg" alt="logo"></a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mobile_nav" aria-controls="mobile_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> 
+                </button>
+                <div class="m24_navigation_wrapper d-flex justify-content-center">
+                    <div class="navi_searchbar_wrapper">
+                        <div class="comboTreeWrapper">
+                            <div class="comboTreeInputWrapper">
+                                <input type="text"  placeholder="Search" class="comboTreeInputBox">
+                                <span class="search"><img src="images/search.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse" id="mobile_nav" style="">
+                    <div class=" mr-auto"> </div>
+                    <ul class="navbar-nav navbar-light ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img  src="images/home.svg" border="0" alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                                <img  src="images/notification.svg" alt="">
+                            </a> 
+                            <span class="num">4</span>
+                        </li>
+                        <li class="nav-item dmenu dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/profile.svg" alt="img">
+                                <span class="name">Mitul</span></a>
+                                <div class="dropdown-menu sm-menu mainmenu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="order.html">Your Orders</a>
+                                   <a class="dropdown-item" href="wishlist.html">Your Wish List</a>
+                                   <a class="dropdown-item" href="address.html">Your Addresses </a>
+                                   <a class="dropdown-item" href="#">Invite on Cellula  </a>
+                                   <a class="dropdown-item" href="#">Customer Support  </a>
+                                   <a class="dropdown-item" href="#">Cancellations and Returns</a>
+                                   <a class="dropdown-item" href="#">Shipping</a>
+                                   <a class="dropdown-item" href="#">Payments</a>
+                                   <a class="dropdown-item" href="#">Settings</a>
+                                   <a class="dropdown-item" href="#">Logout</a>
+                               </div>
+                         </li>
+                         <span class="line">|</span>
+                         <li class="nav-item dmenu dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/menu.svg" alt="img" class="img-fluid"><span class="caret"></span></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                                    <img  src="images/cart.svg" alt="">
+                                </a> 
+                                <span class="cart">4</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="product_detail_main">
+            <div class="container-fluid">
+        </div>
+            <div class="container-fluid pt-4">
+                <div class="row">
+                    <div class="col-md-3"> 
+                        <div class="preview" id="preview">
+                          <div class="upper-link">
+                            <ul>
+                              <li>
+                                <a href="#"><span class="green-text">Home</span>
+                                  <i class="fa fa-angle-right green-text" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                  <a href="#"><span class="green-text">Shopping</span>
+                                    <i class="fa fa-angle-right green-text" aria-hidden="true"></i></a>
+                                  </li>
+                                  <li>
+                                    <span>Whishlist</span>
+                                  </li>
+                                </ul>
+                        </div>
+                        <ul class="preview-thumbnail nav nav-tabs">
+                          <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="images/product/small_1.svg" /></a></li>
+                          <li><a data-target="#pic-2" data-toggle="tab"><img src="images/product/small_2.svg" /></a></li>
+                          <li><a data-target="#pic-3" data-toggle="tab"><img src="images/product/small_3.svg" /></a></li>
+
+                      </ul>          
+                      <div class="preview-pic tab-content">
+                          <div class="tab-pane active" id="pic-1"><img src="images/product/big_product_1.svg"/></div>
+                          <div class="tab-pane" id="pic-2"><img src="images/product/big_product_2.svg" /></div>
+                          <div class="tab-pane" id="pic-3"><img src="images/product/big_product_3.svg" /></div>
+                      </div>
+                    </div>
+                    </div>
+
+
+                <div class="col-md-6">
+                    <div class="product-details ml-auto pb-3">
+                    <div class="heading">
+                            <h3 class="product-title">Zandu Kesari Jivan</h3>
+                            <div class="like">
+                                <img src="images/product/like.svg">&nbsp;&nbsp;&nbsp;
+                                  <img src="images/product/share.svg">
+                            </div>
+                    </div>
+                    <div class="star-rating font-size-xs text-dark" data-value="4">
+                      <div class="rating-item">
+                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                      </div>
+                      <div class="rating-item active">
+                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                      </div>
+                      <div class="rating-item">
+                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                      </div>
+                      <div class="rating-item">
+                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                      </div>
+                      <div class="rating-item">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <span class="d-inline-block mt-1 ml-1">4.5 (234 Reviews)</span>
+                    <div class="mb-3 mt-1 pricemain">
+                    <span class="h3 mr-1 ">₹2,875</span>
+                  <del class="text-muted font-size-lg mr-3">₹2,875</del><small>30% off</small>
+                </div>
+                <div class="font-size-sm mb-4">
+                    <span class="text-heading mr-1">in stock:</span>
+                    <span class="deliver" id="colorOption">Delivery by: 20 - 25 March </span>
+                </div>
+                <div class="row">
+                        <div class="col-md-2 col-sm-2 col-xs-2 col-lg-2">
+                            <div class="ecard-icon text-center">
+                                <div class="ecard-body">
+                                    <img src="images/product/Money.svg">
+                                    <p>Pay on Delivery</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 col-lg-2 mt-mob-4">
+                            <div class="ecard-icon text-center">
+                                <div class="ecard-body">
+                                    <img src="images/product/free_delivery.svg">
+                                    <p>Free Delivery</p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 col-lg-2 mt-mob-4">
+                            <div class="ecard-icon text-center">
+                                <div class="ecard-body">
+                                    <img src="images/product/easy_returns.svg">
+                                    <p>Easy Returns</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 col-lg-2 mt-mob-4">
+                            <div class="ecard-icon text-center">
+                                <div class="ecard-body">
+                                    <img src="images/product/Verified.svg">
+                                    <p>Verified</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="font-size-sm mb-4 seller_detail">
+                        <span class="text-header1 mr-1">Seller:</span>
+                        <a href="product_inner_detail.html"><span class="code1" id="colorOption"> Radhe Pharmacy </span></a>
+                        <div class="product_rating">
+                                            <div class="rating_white">4.5 
+                                                <i class="fa fa-star"></i>
+                                                           </div>
+                                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p class="heading_customer">About this product:</p>
+                        </div>
+                        <div class="col-md-9">
+                            <p>Weaving technique for yarn is machine. These saree are perfect for occasions and events anytime of the day or night. Note if you follow these simple steps; taking care of your saree is very easy. It's recommended to handle the saree with care and hence only dry clean and wash in cold water. </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p class="heading_customer">Features & Details:</p>
+                        </div>
+                        <div class="col-md-9">
+                            <p>Weaving technique for yarn is machine. These saree are perfect for occasions and events anytime of the day or night. Note if you follow these simple steps; taking care of your saree is very easy. It's recommended to handle the saree with care and hence only dry clean and wash in cold water. </p>
+                        </div>
+                    </div>
+                    <div class="row">                      
+                       <div class="col-lg-4 col-md-4">
+                            <p class="heading_customer">Customer reviews:</p>
+                            <h2 class="bold padding-bottom-7">4.3 <small><i class="fa fa-star sr-star active" aria-hidden="true"></i></small></h2>
+                            <div class="totalrate ">1283 ratings and<br> 6 products</div>
+                            <div class="d-flex align-items-center mb-2">
+                              <div class="text-nowrap mr-3">
+                                <span class="d-inline-block align-middle text-muted">5</span>
+                                <i class="fa fa-star sr-star font-size-xs ml-1"></i>
+                              </div>
+                              <div class="w-100">
+                                <div class="progress" style="height: 6px;">
+                                  <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div><span class="text-muted ml-3">43</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                              <div class="text-nowrap mr-3">
+                                <span class="d-inline-block align-middle text-muted">4</span>
+                                <i class="fa fa-star sr-star font-size-xs ml-1" aria-hidden="true"></i>
+                            </div>
+                              <div class="w-100">
+                                <div class="progress" style="height: 6px;">
+                                  <div class="progress-bar" role="progressbar" style="width: 27%; background-color: #a7e453;" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div><span class="text-muted ml-3">16</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                              <div class="text-nowrap mr-3">
+                                <span class="d-inline-block align-middle text-muted">3</span>
+                                <i class="fa fa-star sr-star font-size-xs ml-1" aria-hidden="true"></i>
+                            </div>
+                              <div class="w-100">
+                                <div class="progress" style="height: 6px;">
+                                  <div class="progress-bar" role="progressbar" style="width: 17%; background-color: #ffda75;" aria-valuenow="17" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div><span class="text-muted ml-3">9</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                              <div class="text-nowrap mr-3">
+                                <span class="d-inline-block align-middle text-muted">2</span>
+                                <i class="fa fa-star sr-star font-size-xs ml-1" aria-hidden="true"></i>
+                            </div>
+                              <div class="w-100">
+                                <div class="progress" style="height: 6px;">
+                                  <div class="progress-bar" role="progressbar" style="width: 9%; background-color: #fea569;" aria-valuenow="9" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div><span class="text-muted ml-3">4</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <div class="text-nowrap mr-3">
+                                <span class="d-inline-block align-middle text-muted">1</span>
+                                <i class="fa fa-star sr-star font-size-xs ml-1" aria-hidden="true"></i>
+                            </div>
+                              <div class="w-100">
+                                <div class="progress" style="height: 6px;">
+                                  <div class="progress-bar bg-danger" role="progressbar" style="width: 4%;" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div><span class="text-muted ml-3">2</span>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="product-review pb-3 mb-4 border-bottom">
+                                <div class="mb-3">
+                                    <div class="media media-ie-fix align-items-center mr-4 pr-2"><img class="rounded-circle" width="50" src="images/product/profile_1.svg" alt="Rafael Marquez">
+                                      <div class="media-body pl-3">
+                                        <h6 class="font-size-sm mb-0">Rafael Marquez</h6><span class="font-size-ms text-muted">June 28, 2019</span>
+                                      </div>
+                                    </div>
+                                    <div class="d-flex main_rating">
+                                     <div class="star-rating font-size-xs text-dark" data-value="4">
+                                      <div class="rating-item">
+                                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="rating-item active">
+                                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="rating-item">
+                                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="rating-item">
+                                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="rating-item">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    </div>
+                                    <div class="point_rate">4.5</div>
+                                    </div>
+                                </div>
+                                  <p class="font-size-md mb-3">Product is good more normal at the price...but its nothing like what is shown in image.... It's not made hard material , its a soft but have OK thickness (easy to breathe).... But dont buy based of the picture shown here...it doesn't have line in the middle as show</p>
+                                    <div class="d-flex">
+                                        <div class="helpifulbtn">
+                                            <a href="#" class="helpful" type="button">Helpful</a>
+                                        </div>
+                                        <div class="textdata_1">
+                                            <p>100 peoples found this helpful</p>
+                                        </div>
+                                    </div>
+                                    <div class="rate_image_side">
+                                  <img src="images/product/rate_image.svg">
+                                </div>
+                            </div>
+                            
+                             
+                             <div class="product-review pb-3 mb-2 border-bottom">
+                                <div class=" mb-3">
+                                    <div class="media media-ie-fix align-items-center mr-4 pr-2"><img class="rounded-circle" width="50" src="images/product/profile_1.svg" alt="Rafael Marquez">
+                                      <div class="media-body pl-3">
+                                        <h6 class="font-size-sm mb-0">Rafael Marquez</h6><span class="font-size-ms text-muted">June 28, 2019</span>
+                                      </div>
+                                    </div>
+                                    <div class="d-flex main_rating">
+                                     <div class="star-rating font-size-xs text-dark" data-value="4">
+                                      <div class="rating-item">
+                                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="rating-item active">
+                                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="rating-item">
+                                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="rating-item">
+                                        <i class="fa fa-star sr-star active" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="rating-item">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    </div>
+                                    <div class="point_rate">4.5</div>
+                                    </div>
+                                </div>
+                                  <p class="font-size-md mb-3">Product is good more normal at the price...but its nothing like what is shown in image.... It's not made hard material , its a soft but have OK thickness (easy to breathe).... But dont buy based of the picture shown here...it doesn't have line in the middle as show</p>
+
+                                    <div class="d-flex">
+                                        <div class="helpifulbtn">
+                                            <a href="#" class="helpful" type="button">Helpful</a>
+                                        </div>
+                                        <div class="textdata_1">
+                                            <p>100 peoples found this helpful</p>
+                                        </div>
+                                    </div>
+                                    <div class="rate_image_side">
+                                  <img src="images/product/rate_image.svg">
+                                </div>
+                            </div>
+                            <a href="#" class="view_all_review" type="button">View all Reviews <i class="fas fa-arrow-right"></i></a>
+                          </div>
+                    </div>
+                </div>
+                <section class="product_cart">
+                    <div class="card_title d-flex flex-wrap justify-content-between align-items-center">
+                        <div>
+                            <h4 class="card_title mb-0">Sponsored products related to this item</h4>
+                        </div>
+                     </div>
+                    <div class="row mt-3">
+                        <div class="item col-xl-3 col-lg-3">
+                            <div class="card">
+                                <div class="card-body product-box">
+                                    <div class="img-wrapper">
+                                        <div class="lable-block"></div>
+                                        <div class="front">
+                                               <a class="bg-size"><img class="img-fluid" src="images/multi.svg"></a>
+                                        </div>
+                                    </div>
+                                    <div class="caption product-detail">
+                                        <h4 class="group card-title inner">Fitness Belt</h4>
+                                        <p class="group inner list-group-item-text">Filippa K</p>
+                                        <h4 class="pricelist">₹ 2,875 &nbsp;<del>₹ 2,875</del>&nbsp;<small>30% off</small></h4>
+                                        <div class="ps-product__rating">
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span>4.5 (234)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item col-xl-3 col-lg-3">
+                            <div class="card">
+                                <div class="card-body product-box">
+                                    <div class="img-wrapper">
+                                        <div class="lable-block"></div>
+                                        <div class="front">
+                                            <a class="bg-size"><img class="img-fluid blur-up bg-img lazyloaded" src="images/product_img_1.svg"></a>
+                                        </div>
+                                    </div>
+                                    <div class="caption product-detail">
+                                        <h4 class="group card-title inner">Fitness Belt</h4>
+                                        <p class="group inner list-group-item-text">Filippa K</p>
+                                        <h4 class="pricelist">₹ 2,875 &nbsp;<del>₹ 2,875</del>&nbsp;<small>30% off</small></h4>
+                                        <div class="ps-product__rating">
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span>4.5 (234)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xl-3 col-lg-3">
+                            <div class="card">
+                                <div class="card-body product-box">
+                                    <div class="img-wrapper">
+                                        <div class="lable-block"></div>
+                                        <div class="front">
+                                               <a class="bg-size"><img class="img-fluid" src="images/multi.svg"></a>
+                                        </div>
+                                    </div>
+                                    <div class="caption product-detail">
+                                        <h4 class="group card-title inner">Fitness Belt</h4>
+                                        <p class="group inner list-group-item-text">Filippa K</p>
+                                        <h4 class="pricelist">₹ 2,875 &nbsp;<del>₹ 2,875</del>&nbsp;<small>30% off</small></h4>
+                                        <div class="ps-product__rating">
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span>4.5 (234)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xl-3 col-lg-3 hidecol1">
+                            <div class="card">
+                                <div class="card-body product-box">
+                                    <div class="img-wrapper">
+                                        <div class="lable-block"></div>
+                                        <div class="front">
+                                               <a class="bg-size"><img class="img-fluid" src="images/multi.svg"></a>
+                                        </div>
+                                    </div>
+                                    <div class="caption product-detail">
+                                        <h4 class="group card-title inner">Fitness Belt</h4>
+                                        <p class="group inner list-group-item-text">Filippa K</p>
+                                        <h4 class="pricelist">₹ 2,875 &nbsp;<del>₹ 2,875</del>&nbsp;<small>30% off</small></h4>
+                                        <div class="ps-product__rating">
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span>4.5 (234)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="product_cart">
+                    <div class="card_title d-flex flex-wrap justify-content-between align-items-center">
+                        <div>
+                            <h4 class="card_title mb-0">Related Products</h4>
+                        </div>
+                       <!--  <div>
+                            <div class="d-flex align-items-center">
+                                <a href="#" class="view_all" type="button">View all <i class="fa fa-long-arrow-right redar" aria-hidden="true"></i></a>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="row mt-3">
+                        <div class="item col-xl-3 col-lg-3">
+                            <div class="card">
+                                <div class="card-body product-box">
+                                    <div class="img-wrapper">
+                                         <div class="front">
+                                            <a class="bg-size"><img class="img-fluid" src="images/product_img_1.svg"></a>
+                                        </div>
+                                    </div>
+                                    <div class="caption product-detail">
+                                        <h4 class="group card-title inner">Fitness Belt</h4>
+                                        <p class="group inner list-group-item-text">Filippa K</p>
+                                        <h4 class="pricelist">₹ 2,875 &nbsp;<del>₹ 2,875</del>&nbsp;<small>30% off</small></h4>
+                                        <div class="ps-product__rating">
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span>4.5 (234)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xl-3 col-lg-3">
+                            <div class="card">
+                                <div class="card-body product-box">
+                                    <div class="img-wrapper">
+                                        <div class="lable-block"></div>
+                                        <div class="front">
+                                            <a class="bg-size"><img class="img-fluid blur-up bg-img lazyloaded" src="images/product_img_1.svg"></a>
+                                        </div>
+                                    </div>
+                                    <div class="caption product-detail">
+                                        <h4 class="group card-title inner">Fitness Belt</h4>
+                                        <p class="group inner list-group-item-text">Filippa K</p>
+                                        <h4 class="pricelist">₹ 2,875 &nbsp;<del>₹ 2,875</del>&nbsp;<small>30% off</small></h4>
+                                        <div class="ps-product__rating">
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span>4.5 (234)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xl-3 col-lg-3">
+                            <div class="card">
+                                <div class="card-body product-box">
+                                    <div class="img-wrapper">
+                                        <div class="lable-block"></div>
+                                        <div class="front">
+                                               <a class="bg-size"><img class="img-fluid" src="images/multi.svg"></a>
+                                        </div>
+                                    </div>
+                                    <div class="caption product-detail">
+                                        <h4 class="group card-title inner">Fitness Belt</h4>
+                                        <p class="group inner list-group-item-text">Filippa K</p>
+                                        <h4 class="pricelist">₹ 2,875 &nbsp;<del>₹ 2,875</del>&nbsp;<small>30% off</small></h4>
+                                        <div class="ps-product__rating">
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span>4.5 (234)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xl-3 col-lg-3 hidecol1">
+                            <div class="card">
+                                <div class="card-body product-box">
+                                    <div class="img-wrapper">
+                                        <div class="lable-block"></div>
+                                        <div class="front">
+                                               <a class="bg-size"><img class="img-fluid" src="images/multi.svg"></a>
+                                        </div>
+                                    </div>
+                                    <div class="caption product-detail">
+                                        <h4 class="group card-title inner">Fitness Belt</h4>
+                                        <p class="group inner list-group-item-text">Filippa K</p>
+                                        <h4 class="pricelist">₹ 2,875 &nbsp;<del>₹ 2,875</del>&nbsp;<small>30% off</small></h4>
+                                        <div class="ps-product__rating">
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span>4.5 (234)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                </div>
+                <div class="col-md-3">
+                   <div id="side_add_cartbtn">
+                    <div class="side_add_cart" >
+                         <div class="custom-select-wrapper">
+                          <label for="size">Deliver to:</label>
+                            <select name="sources" id="sources1" class="custom-select sources borderno reg-input" placeholder="Mohit, Ahmadabad, 387641" style="display: none;">
+                                        <option>Mohit, Ahmadabad, 387641</option>
+                                        <option>Mohit, surat, 387641 </option>
+                                        <option>Mohit, Rajkot, 387641 </option>
+                                    </select>
+                        </div>
+                      <div class="data-value_select"> 
+                      <label for="size">Size</label>
+                        <div class="custom-select-wrapper">
+                            <select name="sources" id="sources1" class="custom-select sources borderno reg-input" placeholder="select data" style="display: none;">
+                                        <option>1KG</option>
+                                        <option>2KG</option>
+                                        <option>3KG</option>
+                            </select>
+                        </div>
+                    </div>
+                      <a href="#" class="reg-btn btn btn-block  mb-2" type="button">Add to Cart</a>
+                      <a href="shopingbag.html" class="buynow btn btn-block  mb-2" type="button">Buy now</a>
+                  </div>
+                  <div class="row ">
+                    <div class="col-md-6  text-center">
+                        <div class="refrecode">
+                        <h4>Refer Cellula <br> and get Rs. 50</h4>
+                        <p>Your friend get Rs. 50 OFF too</p>
+                        <a href="#" class="invite_friend" type="button">Invite Friends</a>
+                    </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="images/product/invite_friend.svg" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+                </div>
+            </div>
+        </section>
+        <!-- js -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jqueryui.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
+
+    </body>
+    </html>

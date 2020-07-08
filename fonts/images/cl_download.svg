@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="137" height="137" viewBox="0 0 137 137">
+  <g id="cl_download" transform="translate(-922 -172.331)">
+    <rect id="Rectangle_17749" data-name="Rectangle 17749" width="137" height="137" transform="translate(922 172.331)" fill="#fff"/>
+    <g id="Group_12091" data-name="Group 12091" transform="translate(951.212 201.327)">
+      <path id="Path_1" data-name="Path 1" d="M262.568,431.756q13.344,0,19.578,3.922l1.871,15.808h-1.372q-6.361-4.515-17.833-4.516-11.973,0-19.267,6.714t-7.295,17.532q0,10.938,7.544,17.711t19.641,6.774q12.1,0,18.581-5.467h1.372l-1.87,16.164q-7.109,4.393-20.7,4.4-18.957,0-31.176-10.935t-12.221-28.168q0-17.471,12.221-28.7T262.568,431.756Z" transform="translate(-219.419 -431.756)" fill="#02911c"/>
+      <g id="Group_2" data-name="Group 2" transform="translate(65.629 24.167) rotate(45)">
+        <path id="Path_9" data-name="Path 9" d="M.01,0H12.454A12.714,12.714,0,0,1,25.336,10.1c1.418,6.613-3.74,13.4-10.714,14.3A12.776,12.776,0,0,1,.23,14.534a12.638,12.638,0,0,1-.222-2.355C-.01,8.366.008,4.552.008.738Z" transform="translate(0 0)" fill="#e23744"/>
+      </g>
+    </g>
+    <g id="Rectangle_17750" data-name="Rectangle 17750" transform="translate(927 176.331)" fill="none" stroke="#02911c" stroke-width="6">
+      <rect width="128" height="128" stroke="none"/>
+      <rect x="3" y="3" width="122" height="122" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <title>Cellula | Medical | Labtest | Orders and Booking</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="animated">
+    <section id="home">
+        <nav class="navbar navbar-expand-lg navbar-light header-section shadow-new">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="medical_hospital.html"><img src="images/logo_small.svg" alt="logo"></a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mobile_nav"
+                    aria-controls="mobile_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="m24_navigation_wrapper d-flex justify-content-center">
+                    <div class="navi_searchbar_wrapper">
+                        <div class="comboTreeWrapper">
+                            <div class="comboTreeInputWrapper">
+                                <input type="text" placeholder="Search" class="comboTreeInputBox">
+                                <span class="search"><img src="images/search.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse" id="mobile_nav" style="">
+                    <div class=" mr-auto"> </div>
+                    <ul class="navbar-nav navbar-light ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/home.svg" border="0" alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="images/notification.svg" alt="">
+                            </a>
+                            <span class="num">4</span>
+                        </li>
+                        <li class="nav-item dmenu dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/profile.svg" alt="img">
+                                <span class="name">Mitul</span></a>
+                            <div class="dropdown-menu sm-menu mainmenu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="order.html">Your Orders</a>
+                                <a class="dropdown-item" href="wishlist.html">Your Wish List</a>
+                                <a class="dropdown-item" href="address.html">Your Addresses </a>
+                                <a class="dropdown-item" href="#">Invite on Cellula </a>
+                                <a class="dropdown-item" href="#">Customer Support </a>
+                                <a class="dropdown-item" href="#">Cancellations and Returns</a>
+                                <a class="dropdown-item" href="#">Shipping</a>
+                                <a class="dropdown-item" href="#">Payments</a>
+                                <a class="dropdown-item" href="#">Settings</a>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </li>
+                        <span class="line">|</span>
+                        <li class="nav-item dmenu dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <img src="images/menu.svg" alt="img" class="img-fluid"><span class="caret"></span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="images/cart.svg" alt="">
+                            </a>
+                            <span class="cart">4</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="order" class="inner_content">
+        <div class="container-fluid">
+            <div class="upper-link">
+                <ul>
+                    <li>
+                        <a href="#"><span class="green-text">Home</span>
+                            <i class="fa fa-angle-right green-text" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="green-text">Shopping</span>
+                            <i class="fa fa-angle-right green-text" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <span>Orders and Booking</span>
+                    </li>
+                </ul>
+                <div class="right-link">
+                    <a href="home-shoping.html"><svg xmlns="http://www.w3.org/2000/svg" width="20.243" height="13.501"
+                            viewBox="0 0 20.243 13.501">
+                            <path id="Icon_ionic-ios-arrow-round-back" data-name="Icon ionic-ios-arrow-round-back"
+                                d="M15.216,11.51a.919.919,0,0,1,.007,1.294l-4.268,4.282H27.218a.914.914,0,0,1,0,1.828H10.955L15.23,23.2a.925.925,0,0,1-.007,1.294.91.91,0,0,1-1.287-.007L8.142,18.647h0a1.026,1.026,0,0,1-.19-.288.872.872,0,0,1-.07-.352.916.916,0,0,1,.26-.64l5.794-5.836A.9.9,0,0,1,15.216,11.51Z"
+                                transform="translate(-7.882 -11.252)" />
+                        </svg>
+                        <span>Back</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="medical-labtest-wishlist-wrapper container pt-4">
+            <div class="order-blog">
+                <div class="nav nav-tabs justify-content-between" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link" id="menu1-tab" data-toggle="tab" href="#menu1" role="tab"
+                        aria-controls="menu1" aria-selected="true">All</a>
+                    <a class="nav-item nav-link" id="menu2-tab" data-toggle="tab" href="#menu2" role="tab"
+                        aria-controls="menu2" aria-selected="false">Events</a>
+                    <a class="nav-item nav-link" id="menu3-tab" data-toggle="tab" href="#menu3" role="tab"
+                        aria-controls="menu3" aria-selected="false">Shopping</a>
+                    <a class="nav-item nav-link" id="menu4-tab" data-toggle="tab" href="#menu4" role="tab"
+                        aria-controls="menu4" aria-selected="false">Food</a>
+                    <a class="nav-item nav-link" id="menu5-tab" data-toggle="tab" href="#menu5" role="tab"
+                        aria-controls="menu5" aria-selected="false">Pharmacy</a>
+                    <a class="nav-item nav-link" id="menu6-tab" data-toggle="tab" href="#menu6" role="tab"
+                        aria-controls="menu6" aria-selected="false">Social</a>
+                    <a class="nav-item nav-link" id="menu7-tab" data-toggle="tab" href="#menu7" role="tab"
+                        aria-controls="menu7" aria-selected="false">Services</a>
+                    <a class="nav-item nav-link" id="menu8-tab" data-toggle="tab" href="#menu8" role="tab"
+                        aria-controls="menu8" aria-selected="false">Treatment</a>
+                    <a class="nav-item nav-link active" id="menu9-tab" data-toggle="tab" href="#menu9" role="tab"
+                        aria-controls="menu9" aria-selected="false">Lab test</a>
+                    <a class="nav-item nav-link" id="menu10-tab" data-toggle="tab" href="#menu10" role="tab"
+                        aria-controls="menu10" aria-selected="false">Home Health</a>
+                </div>
+                <div class="tab-content labtest-booking-cards">
+                    <div id="menu1" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu2" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu3" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu4" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu5" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu6" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu7" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu8" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu9" class="container tab-pane fade show active">
+                        <div class="row">
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu10" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-12 col-md-6 labtest-common-card">
+                                <div class="card shadow-card">
+                                    <div class="labtest-row top-row">
+                                        <div class="d-flex flex-column">
+                                            <h5>Blood Cells Count Test </h5>
+                                            <h6>Apollo Laboratories</h6>
+                                        </div>
+                                        <h5>₹2,069</h5>
+                                    </div>
+                                    <div class="card-footer pb-0">
+                                        <h6>Ordered On Fri, Aug 25th '17</h6>
+                                        <a href="medical_labtest_order_detail.html" class="reg-btn btn-warning">Order Received </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery-scrolltofixed.js"></script>
+</body>
+
+</html>

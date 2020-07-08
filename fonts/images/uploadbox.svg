@@ -1,0 +1,17 @@
+<svg id="uploadbox" xmlns="http://www.w3.org/2000/svg" width="127" height="150" viewBox="0 0 127 150">
+  <g id="Rectangle_20" data-name="Rectangle 20" fill="rgba(2,145,28,0.06)" stroke="#02911c" stroke-linecap="round" stroke-width="1" stroke-dasharray="5">
+    <rect width="127" height="150" rx="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="126" height="149" rx="4.5" fill="none"/>
+  </g>
+  <g id="upload-cloud" transform="translate(41 17)">
+    <path id="Path_280" data-name="Path 280" d="M24.726,20.363,16.363,12,8,20.363" transform="translate(6.647 6.812)" fill="none" stroke="#02911c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_22" data-name="Line 22" y2="19" transform="translate(22.788 19)" fill="none" stroke="#02911c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_281" data-name="Path 281" d="M41.546,35.175a10.454,10.454,0,0,0-5-19.632H33.915A16.726,16.726,0,1,0,5.187,30.8" transform="translate(-0.995 -3.002)" fill="none" stroke="#02911c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_282" data-name="Path 282" d="M24.726,20.363,16.363,12,8,20.363" transform="translate(6.647 6.812)" fill="none" stroke="#02911c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+  <text id="Upload_a_photo" data-name="Upload a photo" transform="translate(20 78)" fill="#02911c" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">Upload a photo</tspan></text>
+  <text id="Supported_formats_PNG_GIF_or_JPG._Photos_are_usually_400_x_300_or_800_x_600." data-name="Supported formats
+PNG, GIF or JPG. 
+Photos are usually 
+400 x 300 or 800 x 600." transform="translate(64 96)" fill="#02911c" font-size="9" font-family="SegoeUI, Segoe UI" letter-spacing="0em"><tspan x="-37.37" y="0">Supported formats</tspan><tspan x="-33.723" y="12">PNG, GIF or JPG. </tspan><tspan x="-37.296" y="24">Photos are usually </tspan><tspan x="-45.772" y="36">400 x 300 or 800 x 600.</tspan></text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+  <g id="home-iconr6" transform="translate(-224 -283)">
+    <g id="Group_10736" data-name="Group 10736" transform="translate(12 -56)">
+      <g id="shopping" transform="translate(326 -229)">
+        <g id="_1170627" data-name="1170627" transform="translate(-68 576.379)">
+          <path id="Path_6275" data-name="Path 6275" d="M7.1,12.831H18.69a.64.64,0,0,0,.616-.465l2.566-8.981a.641.641,0,0,0-.617-.818H5.618L5.16.5A.641.641,0,0,0,4.533,0H.641a.642.642,0,1,0,0,1.283H4.018L6.335,11.708A1.923,1.923,0,0,0,7.1,15.4H18.69a.642.642,0,1,0,0-1.283H7.1a.642.642,0,1,1,0-1.283Zm0,0" transform="translate(-40 1)" fill="#e23744"/>
+          <path id="Path_6276" data-name="Path 6276" d="M151,361.929A1.925,1.925,0,1,0,152.925,360,1.925,1.925,0,0,0,151,361.929Zm0,0" transform="translate(-184.542 -344.607)" fill="#e23744"/>
+          <path id="Path_6277" data-name="Path 6277" d="M362,361.929a1.927,1.927,0,1,0,.564-1.365,1.925,1.925,0,0,0-.564,1.365Zm0,0" transform="translate(-386.522 -344.607)" fill="#e23744"/>
+        </g>
+      </g>
+    </g>
+    <g id="Rectangle_17668" data-name="Rectangle 17668" transform="translate(224 283)">
+      <path id="Path_8397" data-name="Path 8397" d="M0,0H18.5A18.5,18.5,0,0,1,37,18.5h0A18.5,18.5,0,0,1,18.5,37h0A18.5,18.5,0,0,1,0,18.5Z" fill="none"/>
+      <path id="Path_8398" data-name="Path 8398" d="M.986.5H18.5a18,18,0,0,1,18,18h0a18,18,0,0,1-18,18h0a18,18,0,0,1-18-18V.986A.486.486,0,0,1,.986.5Z" fill="none" stroke="#e23744" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

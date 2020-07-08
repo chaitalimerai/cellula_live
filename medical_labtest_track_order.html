@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+  <title>Cellula | Medical | Labtest | Track Order</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/jqueryui.min.css">
+</head>
+
+<body class="animated">
+  <section id="home">
+    <nav class="navbar navbar-expand-lg navbar-light header-section shadow-new">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="medical_labtest.html"><img src="images/logo_small.svg" alt="logo"></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mobile_nav"
+          aria-controls="mobile_nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="m24_navigation_wrapper d-flex justify-content-center">
+          <div class="navi_searchbar_wrapper">
+            <div class="comboTreeWrapper">
+              <div class="comboTreeInputWrapper">
+                <input type="text" placeholder="Search" class="comboTreeInputBox">
+                <span class="search"><img src="images/search.svg"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse" id="mobile_nav">
+          <div class=" mr-auto"> </div>
+          <ul class="navbar-nav navbar-light ">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="images/home.svg" border="0" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown"
+                aria-expanded="false">
+                <img src="images/notification.svg" alt="">
+              </a>
+              <span class="num">4</span>
+            </li>
+            <li class="nav-item dmenu dropdown">
+              <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img src="images/profile.svg" alt="img">
+                <span class="name">Mitul</span></a>
+              <div class="dropdown-menu sm-menu mainmenu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="order.html">Your Orders</a>
+                <a class="dropdown-item" href="wishlist.html">Your Wish List</a>
+                <a class="dropdown-item" href="address.html">Your Addresses </a>
+                <a class="dropdown-item" href="#">Invite on Cellula </a>
+                <a class="dropdown-item" href="#">Customer Support </a>
+                <a class="dropdown-item" href="#">Cancellations and Returns</a>
+                <a class="dropdown-item" href="#">Shipping</a>
+                <a class="dropdown-item" href="#">Payments</a>
+                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="#">Logout</a>
+              </div>
+            </li>
+            <span class="line">|</span>
+            <li class="nav-item dmenu dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img src="images/menu.svg" alt="img" class="img-fluid"><span class="caret"></span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown"
+                aria-expanded="false">
+                <img src="images/cart.svg" alt="">
+              </a>
+              <span class="cart">4</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section class="cart_detail">
+    <div class="container-fluid mb-4">
+      <div class="upper-link">
+        <ul>
+          <li>
+            <a href="#"><span class="green-text">Home</span>
+              <i class="fa fa-angle-right green-text" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><span class="green-text">Labtest</span>
+              <i class="fa fa-angle-right green-text" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <span>Track Order</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-fluid mb-4">
+      <div class="upper-link order-sub-header">
+        <h3>Track Order</h3>
+        <div class="right-link pr-5">
+          <a href="#">
+            <span>Guaranteed Delivery: 23 Jan 2019</span></a>
+        </div>
+      </div>
+      <!-- <hr> -->
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="order_main w-100 justify-content-between mb-4">
+            <div class="listof_order flex-wrap flex-lg-nowrap pl-3">
+              <div class="orderid mb-3 mb-lg-0">
+                <h4>Order id:</h4>
+                OD110053428696818000
+              </div>
+              <div class="orderdelivery">
+                <a href="#" class="delivery-btn warning" type="button">Recieved</a>
+                <h4>Delivered on Jul 26, 2017</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-lg-12">
+              <div id="tracking-pre"></div>
+              <div id="tracking">
+                <div class="tracking-status-intransit">
+                  <div class="row">
+                    <div class="col-md-1">
+                      <img src="images/product/radio.svg">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="order_list_data">
+                        <h3>Order Received</h3>
+                        <span class="tracking-status">Awaiting Confirmation</span>
+                        <p class="tracking-status">Lenovo HW01 Heart Rate Monitor Smart Band, 1+ more</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tracking-list">
+                  <div class="tracking-item">
+                    <div class="tracking-icon status-intransit">
+                    </div>
+                    <div class="tracking-content">Shipped<span>You order has been shipped</span></div>
+                  </div>
+                  <div class="tracking-item">
+                    <div class="tracking-icon status-intransit">
+                      <!-- <i class="fas fa-circle"></i> -->
+                    </div>
+                    <div class="tracking-content">Out for Delivery<span>Your order is out for delivery </span></div>
+                  </div>
+                  <div class="tracking-item">
+                    <div class="tracking-icon status-intransit">
+                      <!-- <i class="fas fa-circle"></i> -->
+                    </div>
+                    <div class="tracking-content">Delivered<span>Your orders has been delivered!</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-9 address shipingdata">
+            <div class="header_title">Shipping Address:</div>
+            <div class="add-section">
+              <span class="pr-4">Komal patel</span><span class="gry-bg">Work</span>
+              <p>
+                30 L T Nagar Road No 2, 2 M G Road,<br>
+                Goregaon (west) Mumbai, Maharashtra, 400062<br>
+                Phone number: 7405210191
+              </p>
+              <hr class="mb-0">
+              <p>
+                Our Executive will visit your address To take samples on<br>
+                25/04/2020 at 4:30PM to 5:00PM
+              </p>
+            </div>
+          </div>
+          <a href="#" class="need-help" type="button" data-toggle="modal" data-target="#needhelp"
+            aria-hidden="true">Need Help?</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="modal fade" id="needhelp">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content needhelpquestion">
+        <div class="modal-body ">
+          <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="false">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne2">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2"
+                    href="#collapseOne2" aria-expanded="false" aria-controls="collapseOne">
+                    Need Help ?
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne2" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingOne2"
+                aria-expanded="false" style="">
+                <div class="panel-body">
+                  <ul class="list-unstyled">
+                    <li><a href="">Download Invoice</a></li>
+                    <li><a href="">Issue with item delivered</a></li>
+                    <li><a href="">Return items</a></li>
+                    <li><a href="">Customer Support</a></li>
+                    <li><a href="">Cancellations and Returns</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- js -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jqueryui.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+
+</body>
+
+</html>

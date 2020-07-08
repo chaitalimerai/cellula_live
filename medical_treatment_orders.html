@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <title>Cellula | Medical | Treatment | Orders</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="animated">
+    <section id="home">
+        <nav class="navbar navbar-expand-lg navbar-light header-section shadow-new">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="medical_hospital.html"><img src="images/logo_small.svg" alt="logo"></a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mobile_nav"
+                    aria-controls="mobile_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="m24_navigation_wrapper d-flex justify-content-center">
+                    <div class="navi_searchbar_wrapper">
+                        <div class="comboTreeWrapper">
+                            <div class="comboTreeInputWrapper">
+                                <input type="text" placeholder="Search" class="comboTreeInputBox">
+                                <span class="search"><img src="images/search.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse" id="mobile_nav" style="">
+                    <div class=" mr-auto"> </div>
+                    <ul class="navbar-nav navbar-light ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/home.svg" border="0" alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="images/notification.svg" alt="">
+                            </a>
+                            <span class="num">4</span>
+                        </li>
+                        <li class="nav-item dmenu dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/profile.svg" alt="img">
+                                <span class="name">Mitul</span></a>
+                            <div class="dropdown-menu sm-menu mainmenu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="order.html">Your Orders</a>
+                                <a class="dropdown-item" href="wishlist.html">Your Wish List</a>
+                                <a class="dropdown-item" href="address.html">Your Addresses </a>
+                                <a class="dropdown-item" href="#">Invite on Cellula </a>
+                                <a class="dropdown-item" href="#">Customer Support </a>
+                                <a class="dropdown-item" href="#">Cancellations and Returns</a>
+                                <a class="dropdown-item" href="#">Shipping</a>
+                                <a class="dropdown-item" href="#">Payments</a>
+                                <a class="dropdown-item" href="#">Settings</a>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </li>
+                        <span class="line">|</span>
+                        <li class="nav-item dmenu dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <img src="images/menu.svg" alt="img" class="img-fluid"><span class="caret"></span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="images/cart.svg" alt="">
+                            </a>
+                            <span class="cart">4</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="order" class="inner_content">
+        <div class="container-fluid">
+            <div class="upper-link">
+                <ul>
+                    <li>
+                        <a href="#"><span class="green-text">Home</span>
+                            <i class="fa fa-angle-right green-text" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="green-text">Shopping</span>
+                            <i class="fa fa-angle-right green-text" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <span>Orders and Bookings</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container pt-4">
+            <div class="order-blog">
+                <nav>
+                    <div class="nav nav-tabs justify-content-between" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link" id="menu1-tab" data-toggle="tab" href="#menu1" role="tab"
+                            aria-controls="menu1" aria-selected="true">All</a>
+                        <a class="nav-item nav-link" id="menu2-tab" data-toggle="tab" href="#menu2" role="tab"
+                            aria-controls="menu2" aria-selected="false">Events</a>
+                        <a class="nav-item nav-link" id="menu3-tab" data-toggle="tab" href="#menu3" role="tab"
+                            aria-controls="menu3" aria-selected="false">Shopping</a>
+                        <a class="nav-item nav-link" id="menu4-tab" data-toggle="tab" href="#menu4" role="tab"
+                            aria-controls="menu4" aria-selected="false">Food</a>
+                        <a class="nav-item nav-link" id="menu5-tab" data-toggle="tab" href="#menu5" role="tab"
+                            aria-controls="menu5" aria-selected="false">Pharmacy</a>
+                        <a class="nav-item nav-link" id="menu6-tab" data-toggle="tab" href="#menu6" role="tab"
+                            aria-controls="menu6" aria-selected="false">Social</a>
+                        <a class="nav-item nav-link" id="menu7-tab" data-toggle="tab" href="#menu7" role="tab"
+                            aria-controls="menu7" aria-selected="false">Services</a>
+                        <a class="nav-item nav-link active" id="menu8-tab" data-toggle="tab" href="#menu8" role="tab"
+                            aria-controls="menu8" aria-selected="false">Treatment</a>
+                        <a class="nav-item nav-link" id="menu9-tab" data-toggle="tab" href="#menu9" role="tab"
+                            aria-controls="menu9" aria-selected="false">Lab test</a>
+                        <a class="nav-item nav-link" id="menu10-tab" data-toggle="tab" href="#menu10" role="tab"
+                            aria-controls="menu10" aria-selected="false">Home Health</a>
+                    </div>
+                </nav>
+                <div class="tab-content medical-treatment-orders medical-treatment-appdetail-wrapper"
+                    id="nav-tabContent">
+                    <div class="tab-pane fade" id="menu1" role="tabpanel" aria-labelledby="menu1-tab">
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_view_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        View Chat
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="menu2" role="tabpanel" aria-labelledby="menu2-tab">
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="#">
+                                    <button type="button" class="reg-btn">
+                                        Get
+                                        Direction
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        Chat Now
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_view_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        View Chat
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="menu3" role="tabpanel" aria-labelledby="menu3-tab">
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="#">
+                                    <button type="button" class="reg-btn">
+                                        Get
+                                        Direction
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        Chat Now
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_view_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        View Chat
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="menu4" role="tabpanel" aria-labelledby="menu4-tab">
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="#">
+                                    <button type="button" class="reg-btn">
+                                        Get
+                                        Direction
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        Chat Now
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_view_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        View Chat
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="menu5" role="tabpanel" aria-labelledby="menu5-tab">
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="#">
+                                    <button type="button" class="reg-btn">
+                                        Get
+                                        Direction
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        Chat Now
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_view_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        View Chat
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="menu6" role="tabpanel" aria-labelledby="menu6-tab">
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="#">
+                                    <button type="button" class="reg-btn">
+                                        Get
+                                        Direction
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        Chat Now
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_view_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        View Chat
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="menu7" role="tabpanel" aria-labelledby="menu7-tab">
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="#">
+                                    <button type="button" class="reg-btn">
+                                        Get
+                                        Direction
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        Chat Now
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_view_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        View Chat
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show active" id="menu8" role="tabpanel" aria-labelledby="menu8-tab">
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="#">
+                                    <button type="button" class="reg-btn">
+                                        Get
+                                        Direction
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        Chat Now
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_view_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        View Chat
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="menu9" role="tabpanel" aria-labelledby="menu9-tab">
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="#">
+                                    <button type="button" class="reg-btn">
+                                        Get
+                                        Direction
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_view_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        View Chat
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="menu10" role="tabpanel" aria-labelledby="menu10-tab">
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="#">
+                                    <button type="button" class="reg-btn">
+                                        Get
+                                        Direction
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        Chat Now
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medical-hospital-common-card card shadow-card">
+                            <div class="d-flex w-100">
+                                <div class="left-block">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center">
+                                        <img class="hospital-logo" src="./images/medical/user-profile1.png"
+                                            alt="hospital-logo">
+                                        <div class="left-content-block">
+                                            <h5>Dr. Chirag Amin</h5>
+                                            <h6>MBBS, MD - Radiotherapy</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="right-block">
+                                        <img src="./images/medical/clock-icon.svg" class="icons" alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h5>1 hr 28min</h5>
+                                            <h6>Time</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <img src="./images/medical/feather-calendar-icon.svg" class="icons"
+                                            alt="clock-icon">
+                                        <div class="mt-2">
+                                            <h6 class="app-date text-nowrap">Appointment Date:</h6>
+                                            <h5>Sat, Feb 09, 2020</h5>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="text-center"><span class="fa fa-star"><small
+                                                    class="pl-2">4.5</small></span></div>
+                                        <h6 class="text-nowrap">(234 Reviews)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-block text-center">
+                                <a href="medical_treatment_view_chat.html">
+                                    <button type="button" class="reg-btn">
+                                        <img src="./images/medical/chat-icon.svg" class="icons pr-2" alt="clock-icon">
+                                        View Chat
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/jquery-scrolltofixed.js"></script> -->
+
+
+</body>
+
+</html>

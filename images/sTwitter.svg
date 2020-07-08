@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="77" viewBox="0 0 79 77">
+  <defs>
+    <filter id="Rectangle_17306" x="0" y="0" width="79" height="77" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_12159" data-name="Group 12159" transform="translate(-781 -910)">
+    <g transform="matrix(1, 0, 0, 1, 781, 910)" filter="url(#Rectangle_17306)">
+      <g id="Rectangle_17306-2" data-name="Rectangle 17306" transform="translate(9 9)" fill="#fff" stroke="#02911c" stroke-width="2">
+        <path d="M0,0H31.5A29.5,29.5,0,0,1,61,29.5v0A29.5,29.5,0,0,1,31.5,59h-2A29.5,29.5,0,0,1,0,29.5V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1.983,1H31.5A28.5,28.5,0,0,1,60,29.5v0A28.5,28.5,0,0,1,31.5,58h-2A28.5,28.5,0,0,1,1,29.5V1.983A.983.983,0,0,1,1.983,1Z" fill="none"/>
+      </g>
+    </g>
+    <path id="_005-twitter" data-name="005-twitter" d="M32.605,51.136a13.936,13.936,0,0,1-3.852,1.056A6.647,6.647,0,0,0,31.695,48.5a13.359,13.359,0,0,1-4.239,1.618,6.684,6.684,0,0,0-11.563,4.571,6.883,6.883,0,0,0,.155,1.524A18.92,18.92,0,0,1,2.27,49.219a6.686,6.686,0,0,0,2.054,8.934,6.6,6.6,0,0,1-3.02-.823V57.4A6.715,6.715,0,0,0,6.66,63.971a6.672,6.672,0,0,1-1.753.22,5.91,5.91,0,0,1-1.266-.114,6.748,6.748,0,0,0,6.246,4.656A13.431,13.431,0,0,1,1.6,71.584,12.519,12.519,0,0,1,0,71.492a18.818,18.818,0,0,0,10.254,3c12.3,0,19.025-10.189,19.025-19.021,0-.3-.01-.581-.024-.864A13.335,13.335,0,0,0,32.605,51.136Z" transform="translate(804.697 887.754)" fill="#03a9f4"/>
+  </g>
+</svg>

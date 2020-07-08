@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+  <g id="home-iconr1" transform="translate(-10 -384)">
+    <g id="Group_10744" data-name="Group 10744" transform="translate(-76 -224)">
+      <g id="medical" transform="translate(79.164 176.832)">
+        <g id="_119059" data-name="119059" transform="translate(7.498 564.832)">
+          <path id="Path_6045" data-name="Path 6045" d="M20.648,7.806H15.859V3.017A3.016,3.016,0,0,0,12.842,0H10.825A3.017,3.017,0,0,0,7.808,3.017V7.806H3.018A3.017,3.017,0,0,0,0,10.823v2.018a3.017,3.017,0,0,0,3.016,3.016h4.79v4.789a3.017,3.017,0,0,0,3.017,3.017H12.84a3.017,3.017,0,0,0,3.017-3.017V15.857h4.789a3.017,3.017,0,0,0,3.017-3.016V10.823a3.017,3.017,0,0,0-3.015-3.017Z" transform="translate(6.336 -126.664)" fill="#e23744"/>
+        </g>
+      </g>
+    </g>
+    <g id="Rectangle_1849" data-name="Rectangle 1849" transform="translate(10 384)">
+      <path id="Path_8387" data-name="Path 8387" d="M0,0H18.5A18.5,18.5,0,0,1,37,18.5h0A18.5,18.5,0,0,1,18.5,37h0A18.5,18.5,0,0,1,0,18.5Z" fill="none"/>
+      <path id="Path_8388" data-name="Path 8388" d="M.986.5H18.5a18,18,0,0,1,18,18h0a18,18,0,0,1-18,18h0a18,18,0,0,1-18-18V.986A.486.486,0,0,1,.986.5Z" fill="none" stroke="#e23744" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

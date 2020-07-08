@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <title>Cellula | Wellness | Nutrition Services | Chat</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/userprofile.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="animated">
+    <section id="home">
+        <nav class="navbar navbar-expand-lg navbar-light header-section shadow-new">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo_small.svg" alt="logo"></a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mobile_nav"
+                    aria-controls="mobile_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="m24_navigation_wrapper d-flex justify-content-center">
+                    <div class="navi_searchbar_wrapper">
+                        <label for="primaryNavBtn" class="primaryNavBtn d-block d-lg-none" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="fa fa-align-right fa-lg"></span>
+                        </label>
+                        <div class="comboTreeWrapper">
+                            <div class="comboTreeInputWrapper">
+                                <input type="text" placeholder="Search" class="comboTreeInputBox">
+                                <span class="search"><img src="images/search.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse" id="mobile_nav" style="">
+                    <div class=" mr-auto"> </div>
+                    <ul class="navbar-nav navbar-light ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/home.svg" border="0" alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="images/notification.svg" alt="">
+                            </a>
+                            <span class="num">4</span>
+                        </li>
+                        <li class="nav-item dmenu dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/profile.svg" alt="img">
+                                <span class="name">Mitul</span></a>
+                            <div class="dropdown-menu sm-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item">
+                                    Profile
+                                </a>
+                                <a class="dropdown-item">
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="login.html">
+                                    Logout</a>
+                            </div>
+                        </li>
+                        <span class="line">|</span>
+                        <li class="nav-item dmenu dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <img src="images/menu.svg" alt="img" class="img-fluid"><span class="caret"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="images/cart.svg" alt="">
+                            </a>
+                            <span class="cart">4</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="chat-wrapper inner_content">
+        <div class="container-fluid common-chat-wrapper">
+            <div class="row">
+                <input type="checkbox" class="d-none" id="primaryNavBtn">
+                <div class="primary-nav col-lg-3 common-chat-users">
+                    <div class="justify-content-end d-flex d-lg-none">
+                        <label for="primaryNavBtn" class="" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="fa fa-window-close text-dark"></span>
+                        </label>
+                    </div>
+                    <h4>Chat</h4>
+                    <div class="comboTreeWrapper">
+                        <input type="text" placeholder="Search for friend" class="form-control">
+                        <span class="search"><img src="images/search.svg"></span>
+                    </div>
+                    <div class="single-user-row">
+                        <div class="user-left-block">
+                            <img src="./images/social/user1.png" alt="user1">
+                            <div class="chat-left-block">
+                                <h6>Keanu Williamson</h6>
+                                <p>Hello ?</p>
+                            </div>
+                        </div>
+                        <small>2:00PM</small>
+                    </div>
+                    <div class="single-user-row unseen-chats">
+                        <div class="user-left-block">
+                            <img src="./images/social/user2.png" alt="user2">
+                            <div class="chat-left-block">
+                                <h6>Keanu Williamson</h6>
+                                <p>What you are eating today?</p>
+                            </div>
+                        </div>
+                        <small>2:00PM</small>
+                    </div>
+                    <div class="single-user-row unseen-chats">
+                        <div class="user-left-block">
+                            <img src="./images/social/user3.png" alt="user3">
+                            <div class="chat-left-block">
+                                <h6>Brandon Adams</h6>
+                                <p>Can you please help me?</p>
+                            </div>
+                        </div>
+                        <small>2:00PM</small>
+                    </div>
+                    <div class="single-user-row unseen-chats">
+                        <div class="user-left-block">
+                            <img src="./images/social/user4.png" alt="user4">
+                            <div class="chat-left-block">
+                                <h6>Dan Fox</h6>
+                                <p>Hey!! How are you?</p>
+                            </div>
+                        </div>
+                        <small>2:00PM</small>
+                    </div>
+                    <div class="single-user-row">
+                        <div class="user-left-block">
+                            <img src="./images/social/user5.png" alt="user5">
+                            <div class="chat-left-block">
+                                <h6>Steve Carpenter</h6>
+                                <p>where are you?</p>
+                            </div>
+                        </div>
+                        <small>2:00PM</small>
+                    </div>
+                    <div class="single-user-row">
+                        <div class="user-left-block">
+                            <img src="./images/social/user6.png" alt="user6">
+                            <div class="chat-left-block">
+                                <h6>Nick Jackson</h6>
+                                <p>okay</p>
+                            </div>
+                        </div>
+                        <small>2:00PM</small>
+                    </div>
+                    <div class="single-user-row">
+                        <div class="user-left-block">
+                            <img src="./images/social/user7.png" alt="user7">
+                            <div class="chat-left-block">
+                                <h6>Eliza Weber</h6>
+                                <p>okay</p>
+                            </div>
+                        </div>
+                        <small>2:00PM</small>
+                    </div>
+                    <div class="single-user-row">
+                        <div class="user-left-block">
+                            <img src="./images/social/user1.png" alt="user1">
+                            <div class="chat-left-block">
+                                <h6>Keanu Williamson</h6>
+                                <p>Hello ?</p>
+                            </div>
+                        </div>
+                        <small>2:00PM</small>
+                    </div>
+                    <div class="single-user-row unseen-chats">
+                        <div class="user-left-block">
+                            <img src="./images/social/user2.png" alt="user2">
+                            <div class="chat-left-block">
+                                <h6>Keanu Williamson</h6>
+                                <p>What you are eating today?</p>
+                            </div>
+                        </div>
+                        <small>2:00PM</small>
+                    </div>
+                    <div class="single-user-row unseen-chats">
+                        <div class="user-left-block">
+                            <img src="./images/social/user3.png" alt="user3">
+                            <div class="chat-left-block">
+                                <h6>Brandon Adams</h6>
+                                <p>Can you please help me?</p>
+                            </div>
+                        </div>
+                        <small>2:00PM</small>
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-6 common-chat-content-wrapper">
+                    <div class="single-user-row">
+                        <div class="user-left-block">
+                            <img src="./images/social/user1.png" alt="user1">
+                            <div class="chat-left-block">
+                                <h6>Keanu Williamson</h6>
+                                <p class="pl-2">
+                                    <span class="fa fa-circle text-success"></span>
+                                    Online
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chats-scroll">
+                        <div class="chat-row">
+                            <img src="./images/social/user8.svg" class="user-chat-profile" alt="user-chat-profile">
+                            <div class="chat-column">
+                                <div class="user-chat-box">
+                                    Hi Cassie! Would you be available for a coffee next week? 😁
+                                </div>
+                                <h6>8:07</h6>
+                            </div>
+                        </div>
+                        <div class="user-chat-media messanger-chat-media">
+                            <img src="./images/social/dog.svg" alt="">
+                        </div>
+                        <div class="chat-row messanger-row">
+                            <div class="chat-column">
+                                <div class="user-chat-box messenger-chat-box">
+                                    Hi Cassie! Would you be available for a coffee next week? 😁
+                                </div>
+                                <div class="messanger-sub-row">
+                                    <h6>8:07</h6>
+                                    <img src="./images/social/user8.svg" class="messanger-chat-profile"
+                                        alt="user-chat-profile">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat-row">
+                            <img src="./images/social/user8.svg" class="user-chat-profile" alt="user-chat-profile">
+                            <div class="chat-column">
+                                <div class="user-chat-box">
+                                    Hi Cassie! Would you be available for a coffee next week? 😁
+                                </div>
+                                <h6>8:07</h6>
+                            </div>
+                        </div>
+                        <div class="user-chat-media">
+                            <img src="./images/social/dog.svg" alt="">
+                        </div>
+                        <div class="chat-row messanger-row">
+                            <div class="chat-column">
+                                <div class="user-chat-box messenger-chat-box">
+                                    Hi Cassie! Would you be available for a coffee next week? 😁
+                                </div>
+                                <div class="messanger-sub-row">
+                                    <h6>8:07</h6>
+                                    <img src="./images/social/user8.svg" class="messanger-chat-profile"
+                                        alt="user-chat-profile">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comboTreeWrapper">
+                        <input type="text" placeholder="Type something" class="form-control">
+                        <a href="#" class="emojis-icon"><img src="images/social/emojis-icon.svg"></a>
+                        <a href="#" class="media-icon"><img src="images/social/media-icon.svg"></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="rsidebar">
+                        <div class="side_bg" id="right_side">
+                            <div class="row justify-content-center">
+                                <div class="main_pricing_conatiner text-center">
+                                    <div class="side_content mb-4">
+                                        <h5>Good Morning</h5>
+                                        <!-- <span class="side_name">Mitul!</span> -->
+                                    </div>
+                                    <div class="chart_img">
+                                        <img src="images/chart.svg" class="img-fluid">
+                                    </div>
+                                    <!-- <div class="side_score mb-4">
+                                 <h2>587</h2>
+                                 </div> -->
+                                    <div class="check_score">
+                                        <a href="#" class="">Download Mobile App to access Your health Score!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6">
+                                    <div class="card card-stats mb-4 mb-xl-0">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h5 class="card-title">Water</h5>
+                                                    <span class="card_head  mt-3">-</span>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="icon">
+                                                        <img src="images/water_icon.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 text-muted text-sm">
+                                                <span class="text-nowrap bottomtxt">Water per day</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6">
+                                    <div class="card card-stats mb-4 mb-xl-0">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h5 class="card-title">Running</h5>
+                                                    <span class="font-weight-bold mb-0">-</span>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="icon">
+                                                        <img src="images/running.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 text-muted text-sm">
+                                                <span class="text-nowrap bottomtxt">Running daily</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-xl-6 col-lg-6">
+                                    <div class="card card-stats mb-4 mb-xl-0">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h5 class="card-title">Workout</h5>
+                                                    <span class="font-weight-bold mt-3">-</span>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="icon">
+                                                        <img src="images/workout.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 text-muted text-sm">
+                                                <span class="text-nowrap bottomtxt">Water per day</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6">
+                                    <div class="card card-stats mb-4 mb-xl-0">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h5 class="card-title">Yoga</h5>
+                                                    <span class="font-weight-bold mb-0">-</span>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="icon">
+                                                        <img src="images/yoga.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 text-muted text-sm">
+                                                <span class="text-nowrap bottomtxt">Yoga daily</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col-xl-6 col-lg-6">
+                                    <div class="card card-stats mb-4 mb-xl-0">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h5 class="card-title">Weight</h5>
+                                                    <span class="font-weight-bold mt-3">-</span>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="icon">
+                                                        <img src="images/weight.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 text-muted text-sm">
+                                                <span class="text-nowrap bottomtxt">Weight in 1 month</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6">
+                                    <div class="card card-stats mb-4 mb-xl-0">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h5 class="card-title">Calories Burn</h5>
+                                                    <span class="font-weight-bold mb-0">-</span>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="icon">
+                                                        <img src="images/burn.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 text-muted text-sm">
+                                                <span class="text-nowrap bottomtxt">Calories burn daily</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <section class="recipe-activity-section">
+                                <div class="card_title">
+                                    <h4 class="card_title">Recent Activity</h4>
+                                </div>
+                                <div class="row no-gutters mt-3">
+                                    <div class="activity-card card">
+                                        <img class="card-img-top" src="./images/social/activity1.png"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <div class="card-row">
+                                                <div class="d-flex">
+                                                    <img class="activity-profile" src="images/post_profile.svg" alt="">
+                                                    <div class="activity-left-block">
+                                                        <h6>James Rotes</h6>
+                                                        <small>2d ago</small>
+                                                    </div>
+                                                </div>
+                                                <h6 class="card-right-title">Vegetables On Plate</h6>
+                                            </div>
+                                            <div class="d-flex justify-content-end">
+                                                <button type="button" class="btn btn-success">View full Recipe</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main-new.js"></script>
+</body>
+
+</html>

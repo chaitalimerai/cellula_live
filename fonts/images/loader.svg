@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63">
+  <g id="loader" transform="translate(2.896 2.897)">
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(0.104 0.103)" fill="#d7efda" stroke="#02911c" stroke-width="3" stroke-dasharray="82 25">
+      <rect width="57" height="57" rx="28.5" stroke="none"/>
+      <rect x="-1.5" y="-1.5" width="60" height="60" rx="30" fill="none"/>
+    </g>
+    <text id="_30" data-name="30" transform="translate(16.104 36.103)" fill="#02911c" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">30</tspan></text>
+  </g>
+</svg>

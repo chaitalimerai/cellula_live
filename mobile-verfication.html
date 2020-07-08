@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <title>Cellula | Thank You</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/style-home.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive-home.css" />
+</head>
+
+<body class="animated zoomIn faster">
+    <section id="main">
+        <header>
+            <div class="container">
+                <div class="head-section">
+                    <div class="row">
+                        <div class="col-md-5 col-6 logo-blog">
+                            <a href="register.html">
+                                <img src="images/logo.svg" alt="logo" />
+                            </a>
+                        </div>
+                        <div class="col-md-7 col-6 menu-right my-auto">
+                        <div class="dropdown">
+                          <button type="button" class="menu-btn dropdown-toggle" data-toggle="dropdown">
+                            James Rotes
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#"><img src="images/lock.svg"> Logout</a>
+                          </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+            <div class="reg-section reg-section-new">
+    <div class="container"> 
+            <div class="main-pg form-reg reset-pss-pg">
+                <div class="reset-pss-pg-title">
+                <h2>Reset Password at Cellula</h2>
+                <!-- <p>Find here everything about life.</p> -->
+                </div>
+                <div class="form-blog-new">
+                    <form role="form" class="resetpwd_parsleyjs" (ngSubmit)="onSubmit(forgotForm)" #forgotForm="ngForm">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <ng-otp-input (onInputChange)="onOtpChange($event)" [config]="{length:6,allowNumbersOnly:true}"
+                                    class="col-md-12 text-center" [hidden]="forgotOTPVerified"></ng-otp-input>
+                            </div>
+                            <div class="form-group col-md-6" [hidden]="!forgotOTPVerified">
+                                <input type="password" class="form-control reg-input" id="password"
+                                    placeholder="Password" minlength="6"
+                                    data-parsley-required-message="Password is required"
+                                    data-parsley-minlength-message="minimum password length should 6 alphanumeric"
+                                    data-parsley-pattern="((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+                                    data-parsley-pattern-message="Password contain should be numbers, symbols, capital letters, and lower-case letters. Ex: PYHc~dS*)8$+"
+                                    ngModel #name="ngModel" name="password" required />
+                            </div>
+                            <div class="form-group col-md-6" [hidden]="!forgotOTPVerified">
+                                <input type="password" class="form-control reg-input" placeholder="Confirm Password"
+                                    data-parsley-equalto="#password"
+                                    data-parsley-required-message="Confirm Password is required"
+                                    data-parsley-equalto-message="Confirm password should be same as password" ngModel
+                                    #name="ngModel" name="conf_password" required>
+                            </div>
+                            <div class="form-btn col-md-12 text-center my-auto">
+                                <button class="reg-btn" [hidden]="!forgotOTPVerified" type="submit">SUBMIT</button>
+                                <button class="reg-btn" [hidden]="forgotOTPVerified" [disabled]="verifyBtnEnabled" (click)="verifyOTPRequest()" type="button">VERIFY</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+   
+    </div>
+</div>
+        <footer>
+    <div class="footer-top">
+    <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="footer-inner-sec">
+            <a href="javascript:void(0);" [routerLink]="['/']" >
+                <img src="images/logo.png" class="img-fluid footer-logo" alt="logo" />
+            </a>
+            <a href="javascript:void(0);" [routerLink]="['/about-us']" routerLinkActive="router-link-active"  class="usefull-links">About</a>
+            <a href="javascript:void(0);" [routerLink]="['/about-us']" fragment="meet-our-team" class="usefull-links">Meet Our Team</a>
+            </div>
+        </div>
+                <div class="col-md-4">
+                    <div class="footer-inner-sec">
+                        <div class="footer-title">
+                            <h4>Contact Us</h4>
+                        </div>
+                        <div class="footer-contact">
+                            <div class="footer-contact-inner d-flex align-items-center">
+                                <div class="contact-icn">
+                                    <img src="images/footer-mail.svg" class="img-fluid" alt="logo" />
+                                </div>
+                                <div class="contact-text">
+                                    <a href="mailto:info@thecellula.com">info@thecellula.com</a>
+                                </div>
+                            </div>
+                            <div class="footer-contact-inner d-flex align-items-center">
+                                <div class="contact-icn">
+                                    <img src="images/footer-phone.svg" class="img-fluid" alt="logo" />
+                                </div>
+                                <div class="contact-text">
+                                    <a href="tel:8325-564-569">+91 8325 564 569</a>
+                                </div>
+                            </div>
+                            <div class="footer-contact-inner d-flex align-items-center">
+                                <div class="contact-icn">
+                                    <img src="images/footer-map-pin.svg" class="img-fluid" alt="logo" />
+                                </div>
+                                <div class="contact-text">
+                                    <p>Bangalore, India</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>  
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-title footer-title-social">
+                        <h4>Follow Us on Social</h4>
+                    </div>
+                    <div class="social-links">
+                        <div class="social-links-inner">
+                            <a href="https://www.facebook.com/Cellula-All-Good-Is-Here-102864868045117/?ref=bookmarks" target="_blank">
+                                <img src="images/footer-social1.svg" class="footer-social-link" alt="logo" />
+                            </a>
+                            <a href="https://www.instagram.com/thecellulalife" target="_blank">
+                                <img src="images/footer-social2.svg" class="footer-social-link" alt="logo" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/cellula-all-good-is-here-3b2b561a6" target="_blank">
+                                <img src="images/footer-social3.svg" class="footer-social-link" alt="logo" />
+                            </a>
+                        </div>
+                        <div class="social-links-inner">
+                            <a href="https://twitter.com/thecellulalife" target="_blank">
+                                <img src="images/footer-social4.svg" class="footer-social-link" alt="logo" />
+                            </a>
+                            <a href="mailto:info@thecellula.com" target="_blank">
+                                <img src="images/footer-social5.svg" class="footer-social-link" alt="logo" />
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCOxc2e_rIhsdI4UThnBr0Fw" target="_blank">
+                                <img src="images/footer-social6.svg" class="footer-social-link" alt="logo" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+        
+    </div>
+</div>
+</div>
+<div class="footer-bottom text-center">
+    <p class="text-gray">© {{date | date:"yyyy"}} Cellula. All Rights Reserved. Licensed & Insured | India</p>
+</div>
+</footer>
+        <div class="help-btn-sec">
+    	<button class="help-btn">Help?</button>
+    </div>
+    </section>
+    
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

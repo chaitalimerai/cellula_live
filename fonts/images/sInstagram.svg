@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="77" viewBox="0 0 79 77">
+  <defs>
+    <filter id="Rectangle_17306" x="0" y="0" width="79" height="77" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" y1="1" x2="0.905" y2="0.139" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd5"/>
+      <stop offset="0.5" stop-color="#ff543e"/>
+      <stop offset="1" stop-color="#c837ab"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_12157" data-name="Group 12157" transform="translate(-781 -910)">
+    <g transform="matrix(1, 0, 0, 1, 781, 910)" filter="url(#Rectangle_17306)">
+      <g id="Rectangle_17306-2" data-name="Rectangle 17306" transform="translate(9 9)" fill="#fff" stroke="#02911c" stroke-width="2">
+        <path d="M0,0H31.5A29.5,29.5,0,0,1,61,29.5v0A29.5,29.5,0,0,1,31.5,59h-2A29.5,29.5,0,0,1,0,29.5V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1.983,1H31.5A28.5,28.5,0,0,1,60,29.5v0A28.5,28.5,0,0,1,31.5,58h-2A28.5,28.5,0,0,1,1,29.5V1.983A.983.983,0,0,1,1.983,1Z" fill="none"/>
+      </g>
+    </g>
+    <g id="_003-instagram" data-name="003-instagram" transform="translate(803.745 932.712)">
+      <path id="Path_8445" data-name="Path 8445" d="M1.934,2.095C-.473,4.6.019,7.251.019,15.32c0,6.7-1.169,13.418,4.95,15,1.911.491,18.84.491,20.748,0,2.548-.657,4.62-2.724,4.9-6.327.04-.5.04-16.829,0-17.342-.3-3.838-2.664-6.05-5.777-6.5a27.557,27.557,0,0,0-4.517-.14C7.342.017,4.5-.561,1.934,2.095Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <path id="Path_8446" data-name="Path 8446" d="M14.448,3.141c-4.634,0-9.035-.412-10.716,3.9-.694,1.782-.594,4.1-.594,7.409,0,2.908-.093,5.64.594,7.408,1.677,4.317,6.114,3.9,10.714,3.9,4.438,0,9.014.462,10.715-3.9.7-1.8.594-4.079.594-7.408,0-4.419.244-7.271-1.9-9.413-2.17-2.17-5.1-1.9-9.412-1.9ZM13.434,5.18c9.667-.015,10.9-1.09,10.218,13.839-.241,5.28-4.262,4.7-9.2,4.7-9.011,0-9.27-.258-9.27-9.273,0-9.12.715-9.262,8.255-9.27Zm7.051,1.878a1.357,1.357,0,1,0,1.357,1.357A1.357,1.357,0,0,0,20.485,7.057ZM14.448,8.644a5.808,5.808,0,1,0,5.806,5.809,5.808,5.808,0,0,0-5.806-5.809Zm0,2.038c4.984,0,4.991,7.541,0,7.541S9.457,10.682,14.448,10.682Z" transform="translate(0.885 0.876)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

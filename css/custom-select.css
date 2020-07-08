@@ -1,0 +1,88 @@
+/*the container must be positioned relative:*/
+
+.custom-dropdown {
+    /* position: relative;
+    font-family: Arial; */
+
+    position: relative;
+    /* font-family: Arial; */
+    top: -27px;
+    left: -7px;
+}
+
+
+.custom-dropdown select {
+    display: none;
+    /*hide original SELECT element:*/
+}
+
+.select-selected {
+    /* background-color: DodgerBlue; */
+    background-color: transparent;
+}
+
+/*style the arrow inside the select element:*/
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 13px;
+    right: 6px;
+    width: 23px;
+    height: 22px;
+    /* border: 6px solid transparent; */
+    border-color: transparent;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+
+.select-selected {
+    color: #3A3A3A;
+    font-size: 15px;
+    padding: 21px 5px 0 5px;
+    /* border: 1px solid transparent; */
+    border-color: transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+.select-items div {
+    color: #fff;
+    padding: 5px;
+    /* border: 1px solid transparent; */
+    border-color: transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*style items (options):*/
+
+.select-items {
+    position: absolute;
+    background-color: #02911cd1;
+    border: 2px solid #E9E9E9;
+    border-radius: 10px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
