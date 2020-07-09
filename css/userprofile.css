@@ -15,7 +15,7 @@
 }
 
 .form-group .reg-input:active, .form-group .reg-input:focus {
-    border: 0;
+    /* border: 0; */
     /* box-shadow: none; */
     outline: 0;
 }

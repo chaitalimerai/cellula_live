@@ -78,7 +78,7 @@
 
 /* extra css [ saloni-zb ] */
 
-.well-rate{
+.well-rate {
     justify-content: flex-end;
 }
 
@@ -220,21 +220,21 @@ select#exampleFormControlSelect1 {
     font-size: 12px !important;
 }
 
-.scoupn-card{
-    border:1px solid #EBEBEB;
+.scoupn-card {
+    border: 1px solid #EBEBEB;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
     padding: 25px 15px;
     border-radius: 0px 0px 10px 10px;
 }
 
-.scoupn-card h6{
+.scoupn-card h6 {
     color: #76707B;
     line-height: 22px;
     font-size: 15px;
     margin-bottom: 1rem;
 }
 
-.scpn{
+.scpn {
     padding: 0 1.25rem;
 }
 
@@ -250,12 +250,18 @@ select#exampleFormControlSelect1 {
     line-height: normal;
 }
 
+.scoupn-btn:hover {
+    color: #FFFFFF;
+}
 
-.scoupn-btn:hover{color: #FFFFFF;}
+.fill-gry {
+    background-color: #8F8F8F !important;
+    border: 1px solid #8F8F8F !important;
+}
 
-.fill-gry{background-color: #8F8F8F !important;border:1px solid #8F8F8F !important;}
-
-.fill-gry:hover{color: #FFFFFF !important;}
+.fill-gry:hover {
+    color: #FFFFFF !important;
+}
 
 .swish {
     width: 120px !important;
@@ -2843,7 +2849,7 @@ ul.checkbox-container.categories-list {
     border-radius: 50% !important;
 }
 
-.inner_content .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+.inner_content .categories-list .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
     content: '';
     display: block;
     position: absolute;
@@ -2859,7 +2865,7 @@ ul.checkbox-container.categories-list {
     background-image: none !important;
 }
 
-.inner_content .custom-control-input:checked~.custom-control-label::before {
+.inner_content .categories-list .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
     border-color: #008619;
     background-color: transparent;
@@ -2989,6 +2995,7 @@ section.product_detail_main {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 .tab-content img {
     width: 100%;
     /* -webkit-animation-name: opacity;
@@ -2996,6 +3003,7 @@ section.product_detail_main {
     -webkit-animation-duration: .3s;
     animation-duration: .3s; */
 }
+
 .preview-pic.tab-content>.active {
     display: block;
     border-radius: 0px 11px 11px 11px;
@@ -6490,10 +6498,7 @@ li.ui-sortable-handle .dropdown-toggle::after {
     padding: 4px 15px;
 }
 
-.food-restaurant-nav .btn-secondary:hover, 
-.food-restaurant-nav .btn-secondary:active, 
-.food-restaurant-nav .btn-secondary.active, 
-.food-restaurant-nav .btn-secondary:focus {
+.food-restaurant-nav .btn-secondary:hover, .food-restaurant-nav .btn-secondary:active, .food-restaurant-nav .btn-secondary.active, .food-restaurant-nav .btn-secondary:focus {
     color: #02911C !important;
     border: 1px solid #02911C !important;
     background: transparent;
@@ -6767,7 +6772,7 @@ li.ui-sortable-handle .dropdown-toggle::after {
 
 /*=============Social Profile wrapper====================*/
 
-.social-profile-wrapper .social-profile {
+.social-form-wrapper .social-profile {
     height: 100px;
     width: 100px;
     object-fit: contain;
@@ -6775,12 +6780,12 @@ li.ui-sortable-handle .dropdown-toggle::after {
     border-radius: 50%;
 }
 
-.social-profile-wrapper .social-profile-label {
+.social-form-wrapper .social-profile-label {
     position: relative;
     cursor: pointer;
 }
 
-.social-profile-wrapper .social-profile-label::before {
+.social-form-wrapper .social-profile-label::before {
     content: " ";
     position: absolute;
     right: -18px;
@@ -6830,6 +6835,18 @@ li.ui-sortable-handle .dropdown-toggle::after {
     font-size: 12px;
     color: #AFAFAF;
     transition: width 2s;
+}
+
+.social-form-wrapper .social-modal-btn {
+    width: 100%;
+    display: block;
+    border: 2px solid #E9E9E9;
+    border-radius: 12px;
+    height: 55px;
+    color: #AFAFAF;
+    font-size: 15px;
+    padding: 15px;
+    position: relative
 }
 
 .social-form-wrapper .floating-social-select select {
@@ -7061,7 +7078,6 @@ li.ui-sortable-handle .dropdown-toggle::after {
 /* ============= Ends: Social Profile wrapper ============== */
 
 /* ============= Social home wrapper ============== */
-
 
 .content-header {
     display: flex;
@@ -9687,7 +9703,7 @@ li.ui-sortable-handle .dropdown-toggle::after {
     background-color: transparent;
 }
 
-.custom-control-input:checked~.custom-control-label::after {
+.spiritual-tickets-wrapper .custom-control-input:checked~.custom-control-label::after {
     top: 3px;
     left: -20px;
     width: 12px;
@@ -11021,26 +11037,31 @@ li.ui-sortable-handle .dropdown-toggle::after {
 
 /*end*/
 
-
 /*wellnes-home*/
-.wellness-home-wrapper .swiper-slide h4{
+
+.wellness-home-wrapper .swiper-slide h4 {
     font-size: 20px;
 }
-.wellness-home-wrapper .swiper-container{
+
+.wellness-home-wrapper .swiper-container {
     bottom: 0;
     border-radius: 0 15px 15px;
 }
+
 .wellness-home-wrapper .event-box {
     box-shadow: 0px 2px 6px -1px #ccc;
 }
-.wellness-home-wrapper .exp-bloxk{
+
+.wellness-home-wrapper .exp-bloxk {
     box-shadow: 0px 2px 6px -1px #ccc;
     border-radius: 0 15px 15px;
 }
-.wellness-home-wrapper .explore-all{
+
+.wellness-home-wrapper .explore-all {
     display: flex;
     align-items: center;
 }
+
 .wellness-home-wrapper .form-group .password-input {
     font-size: 13px;
     padding: 4px 8px;
@@ -11049,75 +11070,87 @@ li.ui-sortable-handle .dropdown-toggle::after {
     margin-bottom: 0;
     border-radius: 6px;
 }
+
 .wellness-home-wrapper .event-box img {
     border-radius: 10px 10px 0 0;
 }
-.wellness-home-wrapper .custom-select-trigger:after{
+
+.wellness-home-wrapper .custom-select-trigger:after {
     right: 10px;
-    background-image: url(../images/wellness/Dropdown.svg); 
+    background-image: url(../images/wellness/Dropdown.svg);
     background-size: cover;
     width: 18px;
     height: 18px;
     top: 7px;
     transform: none;
-    border: none; 
+    border: none;
 }
+
 .wellness-home-wrapper .custom-select.opened .custom-select-trigger:after {
     margin-top: -3px;
     transform: none;
 }
+
 .wellness-home-wrapper .custom-select-trigger {
     color: #2d2d2d91;
 }
-.wellness-home-wrapper .explore-box{
+
+.wellness-home-wrapper .explore-box {
     display: flex;
     justify-content: space-between;
     padding: 10px 10px 0;
 }
-.wellness-home-wrapper .exp-col-box span{
+
+.wellness-home-wrapper .exp-col-box span {
     color: #000;
     font-size: 14px;
 }
-.wellness-home-wrapper .explore-box img{
+
+.wellness-home-wrapper .explore-box img {
     border-radius: 50px;
     width: 30px;
     height: 30px;
 }
-.wellness-home-wrapper .ex-cnt{
+
+.wellness-home-wrapper .ex-cnt {
     display: grid;
 }
+
 .wellness-home-wrapper .exp-btn button {
     border-radius: 15px 0px 15px 0px;
     padding: 1px 20px;
     margin-top: 0;
 }
+
 .wellness-home-wrapper .exp-bloxk img {
     border-radius: 0 15px 0 0;
 }
 
 /*end*/
 
-
 /*wellness-nutrition-plan*/
+
 .wellness-nutrition-plan .event-box p {
     margin-bottom: 0 !important;
     margin-left: 0;
 }
+
 .wellness-nutrition-plan .baps-v-box {
     padding: 10px 15px;
     text-align: left;
 }
-.wellness-nutrition-plan .rec-box{
+
+.wellness-nutrition-plan .rec-box {
     display: flex;
     justify-content: space-between;
 }
-.wellness-nutrition-plan .rec-box .prc{
+
+.wellness-nutrition-plan .rec-box .prc {
     font-weight: 600;
     font-size: 14px;
 }
 
 /*end*/
-
 
 /*ravi (03-07)*/
 
@@ -12238,10 +12271,12 @@ li.ui-sortable-handle .dropdown-toggle::after {
 .medical-about-wrapper .tab-per-col {
     padding: 0 10px;
 }
-.wellness-home-wrapper .explore-box .user-img{
+
+.wellness-home-wrapper .explore-box .user-img {
     width: 30px !important;
     height: 30px !important;
 }
+
 @media screen and (max-width: 2000px) and (min-width: 1440px) {
     .medical-about-wrapper .max-col-wd {
         flex: 0 0 11.666667%;
@@ -12274,25 +12309,32 @@ li.ui-sortable-handle .dropdown-toggle::after {
 }
 
 /*end*/
+
 /*wellnes-home*/
-.wellness-home-wrapper .swiper-slide h4{
+
+.wellness-home-wrapper .swiper-slide h4 {
     font-size: 20px;
 }
-.wellness-home-wrapper .swiper-container{
+
+.wellness-home-wrapper .swiper-container {
     bottom: 0;
     border-radius: 0 15px 15px;
 }
+
 .wellness-home-wrapper .event-box {
     box-shadow: 0px 2px 6px -1px #ccc;
 }
-.wellness-home-wrapper .exp-bloxk{
+
+.wellness-home-wrapper .exp-bloxk {
     box-shadow: 0px 2px 6px -1px #ccc;
     border-radius: 0 15px 15px;
 }
-.wellness-home-wrapper .explore-all{
+
+.wellness-home-wrapper .explore-all {
     display: flex;
     align-items: center;
 }
+
 .wellness-home-wrapper .form-group .password-input {
     font-size: 13px;
     padding: 4px 8px;
@@ -12301,72 +12343,87 @@ li.ui-sortable-handle .dropdown-toggle::after {
     margin-bottom: 0;
     border-radius: 6px;
 }
+
 .wellness-home-wrapper .event-box img {
     border-radius: 10px 10px 0 0;
 }
-.wellness-home-wrapper .custom-select-trigger:after{
+
+.wellness-home-wrapper .custom-select-trigger:after {
     right: 10px;
-    background-image: url(../images/wellness/Dropdown.svg); 
+    background-image: url(../images/wellness/Dropdown.svg);
     background-size: cover;
     width: 18px;
     height: 18px;
     top: 7px;
     transform: none;
-    border: none; 
+    border: none;
 }
+
 .wellness-home-wrapper .custom-select.opened .custom-select-trigger:after {
     margin-top: -3px;
     transform: none;
 }
+
 .wellness-home-wrapper .custom-select-trigger {
     color: #2d2d2d91;
 }
-.wellness-home-wrapper .explore-box{
+
+.wellness-home-wrapper .explore-box {
     display: flex;
     justify-content: space-between;
     padding: 10px 10px 0;
 }
-.wellness-home-wrapper .exp-col-box span{
+
+.wellness-home-wrapper .exp-col-box span {
     color: #000;
     font-size: 14px;
 }
-.wellness-home-wrapper .explore-box img{
+
+.wellness-home-wrapper .explore-box img {
     border-radius: 50px;
     width: 30px;
     height: 30px;
 }
-.wellness-home-wrapper .ex-cnt{
+
+.wellness-home-wrapper .ex-cnt {
     display: grid;
 }
+
 .wellness-home-wrapper .exp-btn button {
     border-radius: 15px 0px 15px 0px;
     padding: 1px 20px;
     margin-top: 0;
 }
+
 .wellness-home-wrapper .exp-bloxk img {
     border-radius: 0 15px 0 0;
 }
-.wellness-home-wrapper .explore-box .user-img{
+
+.wellness-home-wrapper .explore-box .user-img {
     width: 30px;
     height: 30px;
 }
+
 /*end*/
 
-
 /*wellness-nutrition-plan*/
+
 .wellness-nutrition-plan .event-box p {
     margin-bottom: 0 !important;
     margin-left: 0;
 }
+
 .wellness-nutrition-plan .baps-v-box {
     padding: 10px 15px;
     text-align: left;
 }
-.wellness-nutrition-plan .rec-box{
+
+.wellness-nutrition-plan .rec-box {
     display: flex;
     justify-content: space-between;
 }
-.wellness-nutrition-plan .rec-box .prc{
+
+.wellness-nutrition-plan .rec-box .prc {
     font-weight: 600;
     font-size: 14px;
 }
@@ -12374,12 +12431,15 @@ li.ui-sortable-handle .dropdown-toggle::after {
 /*end*/
 
 /*wellness-workout-home*/
-.wellness-workout-home .workout-row .event-box img{
+
+.wellness-workout-home .workout-row .event-box img {
     height: 120px;
 }
-.wellness-workout-home .workout-read .event-box img{
+
+.wellness-workout-home .workout-read .event-box img {
     height: 220px;
 }
+
 /*end*/
 
 /*ravi end
@@ -15408,111 +15468,162 @@ select:-moz-focusring {
 
 /* saloni-zb 30-6-2020 end */
 
-
 /* ================  wellness home wrapper  =============== */
 
 .wellness-recipe-home-wrapper .wellness-recipe-banner {
     padding: 0;
- }
- .wellness-recipe-home-wrapper .recipe-ad-block {
-     background-color: #ECA701;
-     border-radius: 0 15px 15px 15px;
-     padding: 40px 0;
-     display: flex;
-     align-items: center;
-     margin-bottom: 20px;
-     height: 100%;
-    
- }
- 
- .wellness-recipe-home-wrapper .recipe-ad-block .recipe-ad-img {
-     height: 80px;
-     width: 80px;
-     object-fit: contain;
-     z-index: 2;
- }
- 
- .wellness-recipe-home-wrapper .recipe-ad-text {
-     background-color: #F5ECE3;
-     padding: 8px;
-     font-size: 12px;
-     font-family: "Metropolis Bold";
-     width: 75%;
-     position: absolute;
-     z-index: 1;
-     right: 0;
-     text-align: center;
- }
- 
- .wellness-recipe-home-wrapper .recipe-banner-block {
-     margin-bottom: 20px;
- }
- .wellness-recipe-home-wrapper .home_recipe_banner {
-     height: 160px;
-     width: 100%;
-     object-fit: cover;
- }
- 
- .wellness-recipe-home-wrapper .content-header {
-     padding: 0;
-     border: 0;
- }
- 
- .wellness-category-section {
-     display: flex;
- }
- 
- .wellness-category-section .wellness-category-card {
-     padding-right: 10px;
-     margin-bottom: 20px;
- }
- 
- 
- .wellness-category-section .wellness-category-card:last-child {
-     padding-right: 0;
- }
- 
- .wellness-category-section .wellness-category-card .category-overlay {
-     width: 100%;
-     height: 100%;
-     position: relative;
-     z-index: 1;
-     text-align: center;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
- 
- .wellness-category-section .wellness-category-card .category-overlay::before {
-     content: "";
-     position: absolute;
-     z-index: 2;
-     top: 0;
-     left: 0;
-     right: 0;
-     bottom: 0;
-     background-color: rgba(0, 0, 0, 0.6);
-     border-radius: 0 18px 18px 18px;
- }
- 
- .wellness-category-section .wellness-category-card .category-overlay h6 {
-     position: absolute;
-     z-index: 3;
-     font-size: 14px;
-     color: #fff;
-     font-family: "Metropolis Medium";
- }
- 
- .wellness-category-section .wellness-category-card img {
-     width: 100%;
-     height: 80px;
-     object-fit: cover;
-     border-radius: 0 18px 18px 18px;
-     box-shadow: 0px 6px 6px 0px #F7F7F7;
- }
- 
- .wellness-recipe-home-wrapper .activity-card .card-img-top {
-     height: 100px;
- }
- 
- /* ================  Ends: wellness home wrapper  =============== */
+}
+
+.wellness-recipe-home-wrapper .recipe-ad-block {
+    background-color: #ECA701;
+    border-radius: 0 15px 15px 15px;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.wellness-recipe-home-wrapper .recipe-ad-block .recipe-ad-img {
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.wellness-recipe-home-wrapper .recipe-ad-text {
+    background-color: #F5ECE3;
+    padding: 8px;
+    font-size: 12px;
+    font-family: "Metropolis Bold";
+    width: 75%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    text-align: center;
+}
+
+.wellness-recipe-home-wrapper .recipe-banner-block {
+    margin-bottom: 20px;
+}
+
+.wellness-recipe-home-wrapper .home_recipe_banner {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.wellness-recipe-home-wrapper .content-header {
+    padding: 0;
+    border: 0;
+}
+
+.wellness-category-section {
+    display: flex;
+}
+
+.wellness-category-section .wellness-category-card {
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.wellness-category-section .wellness-category-card:last-child {
+    padding-right: 0;
+}
+
+.wellness-category-section .wellness-category-card .category-overlay {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wellness-category-section .wellness-category-card .category-overlay::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0 18px 18px 18px;
+}
+
+.wellness-category-section .wellness-category-card .category-overlay h6 {
+    position: absolute;
+    z-index: 3;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Metropolis Medium";
+}
+
+.wellness-category-section .wellness-category-card img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 0 18px 18px 18px;
+    box-shadow: 0px 6px 6px 0px #F7F7F7;
+}
+
+.wellness-recipe-home-wrapper .activity-card .card-img-top {
+    height: 100px;
+}
+
+/* ================  Ends: wellness home wrapper  =============== */
+
+/* ================  wellness Health wrapper  =============== */
+
+.social-form-wrapper .physician-btn {
+    width: 100%;
+    display: block;
+    border: 2px solid #E9E9E9;
+    border-radius: 12px;
+    height: 55px;
+    color: #AFAFAF;
+    font-size: 15px;
+    padding: 15px;
+    position: relative
+}
+
+.wellness-health-home-wrapper .reg-btn {
+    padding: 7px 50px;
+    margin-top: 20px;
+}
+
+.wellness-health-home-wrapper .custom-control-label {
+    white-space: nowrap;
+    font-size: 13px;
+    font-family: "Metropolis Medium";
+    color: #AFAFAF;
+}
+
+.wellness-health-home-wrapper .checkbox_main_label {
+    white-space: nowrap;
+    font-size: 13px;
+    font-family: "Metropolis Medium"
+}
+
+.wellness-health-home-wrapper .custom-control-input:checked~.custom-control-label::before {
+    border-color: #00861a;
+    background-color: #00861a;
+}
+
+.wellness-health-home-wrapper .custom-checkbox .custom-control-label::before {
+    top: .12rem;
+}
+
+.wellness-health-home-wrapper .custom-checkbox .custom-control-label::after {
+    top: .15rem;
+}
+
+.wellness-health-home-wrapper .social-profile {
+    border-color: #fff;
+    box-shadow: 0px 3px 6px #E7E7E7;
+}
+
+/* ================  Ends: wellness Health wrapper  =============== */

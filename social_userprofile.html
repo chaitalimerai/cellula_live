@@ -108,103 +108,106 @@
                               </li> -->
                             </ul>
                         </div>
+
                         <div class="tab-content" id="main_form">
                             <div class="tab-pane active socialProfileContent" role="tabpanel" id="step1">
-                                <div class="row justify-content-center mb-4">
-                                    <!-- <img src="./images/social/user-profile1.png" class="profile-img" alt="profile-img"> -->
-                                    <input type="file" class="d-none" accept="image/*" name="image" id="file"
-                                        onchange="loadDucumentFile(event)">
-                                    <label for="file" class="social-profile-label">
-                                        <img id="socialProfile" src="./images/social/user-profile1.png"
-                                            class="social-profile" alt="Social Profile">
-                                    </label>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input class="form-control social-input reg-input" type="text"
-                                                name="social_fullname" placeholder="Mitul Gajjar">
-                                            <span class="floating-label">Full name:</span>
-                                        </div>
+                                <form name="" id="" class="">
+                                    <div class="row justify-content-center mb-4">
+                                        <!-- <img src="./images/social/user-profile1.png" class="profile-img" alt="profile-img"> -->
+                                        <input type="file" class="d-none" accept="image/*" name="image" id="file"
+                                            onchange="loadDucumentFile(event)">
+                                        <label for="file" class="social-profile-label">
+                                            <img id="socialProfile" src="./images/social/user-profile1.png"
+                                                class="social-profile" alt="Social Profile">
+                                        </label>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input class="form-control social-input reg-input" type="text"
-                                                name="social_username" placeholder="kylemaxwell23">
-                                            <span class="floating-label">User Name:</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input class="form-control reg-input" type="text" name="social_skills"
-                                                placeholder="Skiils">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input class="form-control reg-input" type="text" name="social_bio"
-                                                placeholder="Bio">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group dropdata position-relative">
-                                            <img src="./images/social/down-icon.png" class="social-select-icon">
-                                            <div name="social-gender" class="custom-dropdown">
-                                                <select name="social-gender" class="social-select form-control">
-                                                    <option selected>Gender</option>
-                                                    <option>Male</option>
-                                                    <option>Female</option>
-                                                </select>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input class="form-control social-input reg-input" type="text"
+                                                    name="social_fullname" placeholder="Mitul Gajjar">
+                                                <span class="floating-label">Full name:</span>
                                             </div>
-                                            <!-- <div name="social-gender" class="custom-dropdown">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input class="form-control social-input reg-input" type="text"
+                                                    name="social_username" placeholder="kylemaxwell23">
+                                                <span class="floating-label">User Name:</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input class="form-control reg-input" type="text" name="social_skills"
+                                                    placeholder="Skiils">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input class="form-control reg-input" type="text" name="social_bio"
+                                                    placeholder="Bio">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group dropdata position-relative">
+                                                <img src="./images/social/down-icon.png" class="social-select-icon">
+                                                <div name="social-gender" class="custom-dropdown">
+                                                    <select name="social-gender" class="social-select form-control">
+                                                        <option selected>Gender</option>
+                                                        <option>Male</option>
+                                                        <option>Female</option>
+                                                    </select>
+                                                </div>
+                                                <!-- <div name="social-gender" class="custom-dropdown">
                                         <select class=" social-select border">
                                             <option selected>Gender</option>
                                             <option value="1">Male</option>
                                             <option value="2">Female</option>
                                         </select>
                                         </div> -->
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group dropdata">
-                                            <input class="form-control reg-input" type="date" name="social_dob"
-                                                placeholder="Date of Birth">
+                                        <div class="col-md-6">
+                                            <div class="form-group dropdata">
+                                                <input class="form-control reg-input" type="date" name="social_dob"
+                                                    placeholder="Date of Birth">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="checkbox" id="exploreSelectionBtn">
-                                        <label for="exploreSelectionBtn" class="exploreSelectionBtn form-group dropdata social-select 
+                                        <div class="col-md-6">
+                                            <input type="checkbox" id="exploreSelectionBtn">
+                                            <label for="exploreSelectionBtn" class="exploreSelectionBtn form-group dropdata social-select 
                                     floating-social-select">
-                                            <img src="./images/social/down-icon.png" class="social-select-icon">
-                                            <span class="floating-label">What you like to explore here ?</span>
-                                            <h6>Vegan life, Cooking, Green planet</h6>
+                                                <img src="./images/social/down-icon.png" class="social-select-icon">
+                                                <span class="floating-label">What you like to explore here ?</span>
+                                                <h6>Vegan life, Cooking, Green planet</h6>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group dropdata">
+                                                <input class="form-control reg-input" type="search" name="social_city"
+                                                    placeholder="Ahemdabad, India">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group dropdata">
+                                                <input class="form-control reg-input" type="email" name="social_email"
+                                                    placeholder="kylere@gmail.com">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group dropdata">
+                                                <input class="form-control reg-input" type="number" name="social_cno"
+                                                    placeholder="Contact No">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center">
+                                        <input type="checkbox" id="continueStep1">
+                                        <label for="continueStep1" class="default-btn next-step">
+                                            Continue
                                         </label>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group dropdata">
-                                            <input class="form-control reg-input" type="search" name="social_city"
-                                                placeholder="Ahemdabad, India">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group dropdata">
-                                            <input class="form-control reg-input" type="email" name="social_email"
-                                                placeholder="kylere@gmail.com">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group dropdata">
-                                            <input class="form-control reg-input" type="number" name="social_cno"
-                                                placeholder="Contact No">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row justify-content-center">
-                                    <input type="checkbox" id="continueStep1">
-                                    <label for="continueStep1" class="default-btn next-step">
-                                        Continue
-                                    </label>
-                                </div>
+                                </form>
                             </div>
                             <div class="tab-pane socialVideoContent" role="tabpanel" id="step2">
                                 <div class="row">
@@ -220,368 +223,370 @@
                                         </label>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-center" style="margin-top: 5rem;">
+                                <div class="d-flex justify-content-center">
                                     <a href="social_home.html" class="default-btn next-step">Let's Go</a>
                                 </div>
                             </div>
                             <div class="tab-pane socialExploreContent" role="tabpanel" id="step3">
-                                <div class="wizard-title">
-                                    <h4>What You Like To Explore Here ?</h4>
-                                    <p>Select minimum 4 category</p>
-                                </div>
-                                <div class="form-group">
-                                    <div class="items-collection">
-                                        <div class="row">
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong1.svg" class="choose-icon1">
-                                                                <img src="images/ciconr1.svg" class="choose-icon2">
-                                                                <h5>Ethics and Values</h5>
-                                                            </div>
-                                                        </label>
+                                <form name="" id="" class="">
+                                    <div class="wizard-title">
+                                        <h4>What You Like To Explore Here ?</h4>
+                                        <p>Select minimum 4 category</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="items-collection">
+                                            <div class="row">
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong1.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr1.svg" class="choose-icon2">
+                                                                    <h5>Ethics and Values</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong2.svg" class="choose-icon1">
-                                                                <img src="images/ciconr2.svg" class="choose-icon2">
-                                                                <h5>Recipes</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong2.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr2.svg" class="choose-icon2">
+                                                                    <h5>Recipes</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong3.svg" class="choose-icon1">
-                                                                <img src="images/ciconr3.svg" class="choose-icon2">
-                                                                <h5>Laugh</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong3.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr3.svg" class="choose-icon2">
+                                                                    <h5>Laugh</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong4.svg" class="choose-icon1">
-                                                                <img src="images/ciconr4.svg" class="choose-icon2">
-                                                                <h5>Inspiration</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong4.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr4.svg" class="choose-icon2">
+                                                                    <h5>Inspiration</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong5.svg" class="choose-icon1">
-                                                                <img src="images/ciconr5.svg" class="choose-icon2">
-                                                                <h5>Motivation</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong5.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr5.svg" class="choose-icon2">
+                                                                    <h5>Motivation</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong6.svg" class="choose-icon1">
-                                                                <img src="images/ciconr6.svg" class="choose-icon2">
-                                                                <h5>Vegan Life</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong6.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr6.svg" class="choose-icon2">
+                                                                    <h5>Vegan Life</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong7.svg" class="choose-icon1">
-                                                                <img src="images/ciconr7.svg" class="choose-icon2">
-                                                                <h5>Beauty Secrets</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong7.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr7.svg" class="choose-icon2">
+                                                                    <h5>Beauty Secrets</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong8.svg" class="choose-icon1">
-                                                                <img src="images/ciconr8.svg" class="choose-icon2">
-                                                                <h5>Books</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong8.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr8.svg" class="choose-icon2">
+                                                                    <h5>Books</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong9.svg" class="choose-icon1">
-                                                                <img src="images/ciconr9.svg" class="choose-icon2">
-                                                                <h5>Self Improvement</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong9.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr9.svg" class="choose-icon2">
+                                                                    <h5>Self Improvement</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong10.svg" class="choose-icon1">
-                                                                <img src="images/ciconr10.svg" class="choose-icon2">
-                                                                <h5>Fitness</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong10.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr10.svg" class="choose-icon2">
+                                                                    <h5>Fitness</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong11.svg" class="choose-icon1">
-                                                                <img src="images/ciconr11.svg" class="choose-icon2">
-                                                                <h5>Yoga</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong11.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr11.svg" class="choose-icon2">
+                                                                    <h5>Yoga</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong12.svg" class="choose-icon1">
-                                                                <img src="images/ciconr12.svg" class="choose-icon2">
-                                                                <h5>Meditation</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong12.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr12.svg" class="choose-icon2">
+                                                                    <h5>Meditation</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong13.svg" class="choose-icon1">
-                                                                <img src="images/ciconr13.svg" class="choose-icon2">
-                                                                <h5>Nutrition</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong13.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr13.svg" class="choose-icon2">
+                                                                    <h5>Nutrition</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong14.svg" class="choose-icon1">
-                                                                <img src="images/ciconr14.svg" class="choose-icon2">
-                                                                <h5>Medical Opinion</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong14.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr14.svg" class="choose-icon2">
+                                                                    <h5>Medical Opinion</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong15.svg" class="choose-icon1">
-                                                                <img src="images/ciconr15.svg" class="choose-icon2">
-                                                                <h5>ECO life</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong15.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr15.svg" class="choose-icon2">
+                                                                    <h5>ECO life</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong16.svg" class="choose-icon1">
-                                                                <img src="images/ciconr16.svg" class="choose-icon2">
-                                                                <h5>Organic life</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong16.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr16.svg" class="choose-icon2">
+                                                                    <h5>Organic life</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong17.svg" class="choose-icon1">
-                                                                <img src="images/ciconr17.svg" class="choose-icon2">
-                                                                <h5>Green Planet</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong17.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr17.svg" class="choose-icon2">
+                                                                    <h5>Green Planet</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                                                <div class="info-block block-info clearfix">
-                                                    <div data-toggle="buttons" class="btn-group itemcontent">
-                                                        <label class="btn btn-default">
-                                                            <div class="itemcontent">
-                                                                <input type="checkbox" name="var_id[]"
-                                                                    autocomplete="off" value="">
-                                                                <img src="images/cicong18.svg" class="choose-icon1">
-                                                                <img src="images/ciconr18.svg" class="choose-icon2">
-                                                                <h5>Alternative Happiness</h5>
-                                                            </div>
-                                                        </label>
+                                                <div class="items col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                                    <div class="info-block block-info clearfix">
+                                                        <div data-toggle="buttons" class="btn-group itemcontent">
+                                                            <label class="btn btn-default">
+                                                                <div class="itemcontent">
+                                                                    <input type="checkbox" name="var_id[]"
+                                                                        autocomplete="off" value="">
+                                                                    <img src="images/cicong18.svg" class="choose-icon1">
+                                                                    <img src="images/ciconr18.svg" class="choose-icon2">
+                                                                    <h5>Alternative Happiness</h5>
+                                                                </div>
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="d-flex justify-content-center">
-                                    <!-- <a href="home-new.html" type="button" class="default-btn next-step">Continue
-                                <span class="continue-arw"><i class="fa fa-chevron-right"
-                                        aria-hidden="true"></i></span></a> -->
-                                    <input type="checkbox" id="goToProfileBtn" checked>
-                                    <label for="goToProfileBtn" type="button" class="default-btn next-step">
-                                        Continue
-                                    </label>
-                                </div>
+                                    <div class="d-flex justify-content-center">
+                                        <input type="checkbox" id="goToProfileBtn" checked>
+                                        <label for="goToProfileBtn" type="button" class="default-btn next-step">
+                                            Continue
+                                        </label>
+                                    </div>
+                                </form>
                             </div>
                             <div class="tab-pane addProfileContent" role="tabpanel" id="step4">
-                                <div class="wizard-title">
-                                    <h4 class="pl-4">Sell your Product</h4>
-                                </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group position-relative">
-                                            <img src="./images/social/down-icon.png" class="social-select-icon">
-                                            <input class="form-control social-input reg-input" type="text"
-                                                name="social_fullname">
-                                            <span class="floating-label floating-address-label">Address:</span>
-                                        </div>
+                                <form name="" id="" class="">
+                                    <div class="wizard-title">
+                                        <h4 class="pl-4">Sell your Product</h4>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <a href="#" class="address-link">
-                                            <span class="fa fa-plus" aria-hidden="true"></span>
-                                            Add a new Address
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="wizard-title">
-                                    <h4 class="my-4">Bank Details</h4>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group dropdata social-select floating-social-select">
-                                            <img src="./images/social/down-icon.png" class="social-select-icon">
-                                            <span class="floating-label">Select Bank</span>
-                                            <div name="social-Bank" class="custom-dropdown">
-                                                <select name="social-Bank" class="social-select form-control">
-                                                    <option selected>Select Bank</option>
-                                                    <option>Dena Bank</option>
-                                                    <option>HDFC Bank</option>
-                                                </select>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group position-relative">
+                                                <img src="./images/social/down-icon.png" class="social-select-icon">
+                                                <input class="form-control social-input reg-input" type="text"
+                                                    name="social_fullname">
+                                                <span class="floating-label floating-address-label">Address:</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group dropdata">
-                                            <input class="form-control reg-input" type="text"
-                                                name="social_holder_name" placeholder="Account Holder Name">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a href="#" class="address-link">
+                                                <span class="fa fa-plus" aria-hidden="true"></span>
+                                                Add a new Address
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group dropdata">
-                                            <input class="form-control reg-input" type="text" name="social_ac_no"
-                                                placeholder="Account No">
+                                    <div class="wizard-title">
+                                        <h4 class="my-4">Bank Details</h4>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group dropdata social-select floating-social-select">
+                                                <img src="./images/social/down-icon.png" class="social-select-icon">
+                                                <span class="floating-label">Select Bank</span>
+                                                <div name="social-Bank" class="custom-dropdown">
+                                                    <select name="social-Bank" class="social-select form-control">
+                                                        <option selected>Select Bank</option>
+                                                        <option>Dena Bank</option>
+                                                        <option>HDFC Bank</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group dropdata">
+                                                <input class="form-control reg-input" type="text"
+                                                    name="social_holder_name" placeholder="Account Holder Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group dropdata">
+                                                <input class="form-control reg-input" type="text" name="social_ac_no"
+                                                    placeholder="Account No">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group dropdata">
+                                                <input class="form-control reg-input" type="text"
+                                                    name="social_ifsc_code" placeholder="IFSC Code">
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group dropdata">
-                                            <input class="form-control reg-input" type="text"
-                                                name="social_ifsc_code" placeholder="IFSC Code">
-                                        </div>
+                                    <div class="d-flex justify-content-center">
+                                        <input type="checkbox" id="continueStep2">
+                                        <label for="continueStep2" class="default-btn next-step">
+                                            Continue
+                                        </label>
                                     </div>
-                                </div>
-                                <div class="d-flex justify-content-center">
-                                    <input type="checkbox" id="continueStep2">
-                                    <label for="continueStep2" class="default-btn next-step">
-                                        Continue
-                                    </label>
-                                </div>
+                                </form>
                             </div>
                             <div class="tab-pane productUploadContent" role="tabpanel" id="step5">
+                                <form name="" id="" class="">
                                 <div class="wizard-title">
                                     <h4 class="pl-4">Sell your Product</h4>
                                 </div>
@@ -658,6 +663,7 @@
                                         Review
                                     </label>
                                 </div>
+                                </form>
                             </div>
                             <div class="tab-pane socialPublishContent" role="tabpanel" id="step6">
                                 <div class="row">
@@ -708,6 +714,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -825,7 +832,7 @@
         });
     </script>
     <script>
-       
+
     </script>
 </body>
 
